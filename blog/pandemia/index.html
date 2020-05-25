@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="https://unpkg.com/d3-milestones/build/d3-milestones.css">
+  <script src="https://unpkg.com/d3-milestones/build/d3-milestones.min.js"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Pandemia, clases y Zoom - R. Álvarez Ugarte - sitio personal</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="R. Álvarez Ugarte" /><meta name="description" content="Ya van varias semanas de clases virtuales y parece un buen momento para reflexionar sobre posible enseñanzas, al menos provisionalmente.
+  La elección tecnológica. Uno puede imaginar mil escenarios posibles, pero al final de cuentas termina eligiendo la opción tecnológica que está mejor distribuida entre todos los alumnos. A nivel maestría (profesionales, grupo pequeño), el sistema Blackboard funcionó bastante bien (es una especie de Zoom para el cual la universidad ya tiene licencia)." /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.68.3 with theme even" />
+
+
+<link rel="canonical" href="http://localhost:1313/blog/pandemia/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.78f8f17bab244b9ee62ad16480c9584d5fc2db06ae20681d1ca225cefd80767c.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/css//static/mine.css">
+
+
+<meta property="og:title" content="Pandemia, clases y Zoom" />
+<meta property="og:description" content="Ya van varias semanas de clases virtuales y parece un buen momento para reflexionar sobre posible enseñanzas, al menos provisionalmente.
+  La elección tecnológica. Uno puede imaginar mil escenarios posibles, pero al final de cuentas termina eligiendo la opción tecnológica que está mejor distribuida entre todos los alumnos. A nivel maestría (profesionales, grupo pequeño), el sistema Blackboard funcionó bastante bien (es una especie de Zoom para el cual la universidad ya tiene licencia)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/blog/pandemia/" />
+<meta property="article:published_time" content="2020-04-09T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-04-09T00:00:00+00:00" />
+<meta itemprop="name" content="Pandemia, clases y Zoom">
+<meta itemprop="description" content="Ya van varias semanas de clases virtuales y parece un buen momento para reflexionar sobre posible enseñanzas, al menos provisionalmente.
+  La elección tecnológica. Uno puede imaginar mil escenarios posibles, pero al final de cuentas termina eligiendo la opción tecnológica que está mejor distribuida entre todos los alumnos. A nivel maestría (profesionales, grupo pequeño), el sistema Blackboard funcionó bastante bien (es una especie de Zoom para el cual la universidad ya tiene licencia).">
+<meta itemprop="datePublished" content="2020-04-09T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-04-09T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="580">
+
+
+
+<meta itemprop="keywords" content="profesoring," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Pandemia, clases y Zoom"/>
+<meta name="twitter:description" content="Ya van varias semanas de clases virtuales y parece un buen momento para reflexionar sobre posible enseñanzas, al menos provisionalmente.
+  La elección tecnológica. Uno puede imaginar mil escenarios posibles, pero al final de cuentas termina eligiendo la opción tecnológica que está mejor distribuida entre todos los alumnos. A nivel maestría (profesionales, grupo pequeño), el sistema Blackboard funcionó bastante bien (es una especie de Zoom para el cual la universidad ya tiene licencia)."/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">R. Álvarez Ugarte</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/blog/">
+        <li class="mobile-menu-item">Archivos</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Etiquetas</li>
+      </a><a href="/publicaciones/">
+        <li class="mobile-menu-item">Publicaciones</li>
+      </a><a href="/clases/">
+        <li class="mobile-menu-item">Clases</li>
+      </a><a href="/recursos/">
+        <li class="mobile-menu-item">Recursos</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">R. Álvarez Ugarte
+      <a href="mailto:ramiroau@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://twitter.com/ramiroau" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://ramiroau.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a></a>
+</div>
+
+<style>
+
+.header .site-navbar .menu  {
+
+  font-size: 4px;
+}
+
+.header .logo-wrapper .logo {
+
+    font-family: 'Jost', 'Futura', 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.mobile-navbar .mobile-header-logo .logo a {
+ 
+    font-family: 'Jost', 'Futura', 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.post-header .post-title {
+
+  font-family: 'Jost', 'Futura';
+
+}
+
+.element.style {
+  list-style: square inside;
+  list-style-type: disc;
+}
+
+}
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Alegreya&display=swap" rel="stylesheet">
+
+
+</style>
+
+
+
+<nav class="site-navbar">
+  <link rel="stylesheet" href="http://localhost:1313//css/mine.css">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/blog/">Archivos</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Etiquetas</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/publicaciones/">Publicaciones</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/clases/">Clases</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/recursos/">Recursos</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Pandemia, clases y Zoom</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 9 Apr 2020 </span>
+        <div class="post-category">
+            <a href="/tags/profesoring/"> profesoring </a>
+            </div>
+        
+      </div>
+      
+    </header>
+
+    
+
+    
+
+    
+    <div class="post-content">
+      <p>Ya van varias semanas de clases virtuales y parece un buen momento para reflexionar sobre posible enseñanzas, al menos provisionalmente.</p>
+<ol>
+<li>
+<p><em>La elección tecnológica</em>. Uno puede imaginar mil escenarios posibles, pero al final de cuentas termina eligiendo la opción tecnológica que está mejor distribuida entre todos los alumnos. A nivel maestría (profesionales, grupo pequeño), el sistema Blackboard funcionó bastante bien (es una especie de <em>Zoom</em> para el cual la universidad ya tiene licencia). Tiene muchas funcionalidades orientadas a la academia / enseñanza, pero por ahora usamos sólo esa. En <code>grado_uba</code> la cuestión es diferente: la disponibilidad tecnológica es (presumiblemente) mucho menor. P.ej., quise explorar posibles IRC respetuosos de la privacidad y multi-plataforma tipo <em>Pidgin</em> o <em>Adium</em> o ir un pad de <em>Riseup</em> &mdash; nada funcionó. Promedio de edad = 21.94318 (explica muchas cosas). Y es que resulta que no todos tienen computadoras, pero todos tienen celular. La opción más resiliente es, entonces, la tecnología que todos ya tienen. Entonces aplicaciones genéricas y populares (<em>Google Classrooms</em>, <em>YouTube</em>, <em>Whatsapp</em>) terminan imponiéndose.</p>
+</li>
+<li>
+<p><em>Modalidad</em>. La opción Blackboard es bastante similar a una clase (aunque mi percepción es que baja la participación, en vivo es un poco más fácil el ida y vuelta). En modalidad YouTube / IRC / Whatsapp → profundamente diferente. La parte de YouTube es básicamente una exposición &ldquo;magistral&rdquo;, que por piedad debe ser más o menos breve (30 minutos, ideal &mdash; llegué a 45). La parte de la discusión por chat resultó sorprendentemente buena, con niveles de participación usuales. Es mucho más difícil, sin embargo, (a) impulsar a quienes no participan usualmente a hacerlo y (b) ver <em>quién está efectivamente en la clase</em>. Hay ahí un problema sobre el control, y muchas de las decisiones administrativas parecen estar inspiradas por la lógica de control que rige en nuestras universidades (p.ej., la necesidad de que los examenes sean presenciales).</p>
+</li>
+<li>
+<p><em>La experiencia docente</em>. Razonablemente buena, con el siguiente <em>caveat</em>: hay algunas clases, especialmente, en las que la exposición &ldquo;magistral&rdquo; se hace difícil. Lo noté con <em>interpretación constitucional</em> &mdash; es una clase en la que estoy acostumbrado a cierto dinamismo, a leer la Constitución, y a un ida y vuelta muy intenso. Algo parecido me pasó en la clase de <em>federalismo</em>, donde estoy muy acostumbrado a usar el pizarrón. Quise usar un cuaderno como reemplazo, con resultados decepcionantes.</p>
+</li>
+<li>
+<p><em>La experiencia del alumno</em>. Era la gran incógnita hasta que hicimos una encuesta, que reveló muchísimas cosas. Quizás lo más interesante tiene que ver con cómo la están pasando que es (básicamente) mal, con angustia, incertidumbre, etcétera. Sin embargo parece haber una tendencia: prefieren que las clases virtuales sigan, por más que no se trate de un escenario ideal. Visto desde acá, perder un cuatrimestre es poca cosa, pero (recuerdo) que a esa edad era una preocupación relevante. Por otro lado, teniendo en cuenta que el hilo que sostiene a muchos en la Universidad en esta etapa temprana es muy delgado (gratuidad y nada más), hacer esfuerzos para que se mantengan dentro del sistema es lo mínimo que podemos hacer como docentes.</p>
+</li>
+<li>
+<p><em>Oportunidades perdidas</em>. La enseñanza virtual permite cierta permencia y continuidad más allá del &ldquo;aula virtual&rdquo;. Al tener un espacio donde subir materiales, hacer preguntas, compartir outlines, etcétera, las posibilidades de un &ldquo;idea y vuelta virtual&rdquo; más permanente están allí. Pero eso exige un nivel de involucramiento mucho mayor al que exigen las clases presenciales. Ahí parece haber una desconexión salarial / y de trabajo remunerado (pero esa es otra historia)</p>
+</li>
+</ol>
+<h1 id="encuesta">Encuesta</h1>
+<p><img src="/pics/encuesta_total.png#wider" alt="" title="Encuesta inter-cátedra, n=89">
+<em>Fuente: Encuesta inter-catedra, n=89</em></p>
+
+    </div>
+
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/profesoring/">profesoring</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/blog/lineasdetiempo/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Líneas de tiempo</span>
+            <span class="prev-text nav-mobile">Previo</span>
+          </a>
+        
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:ramiroau@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://stackoverflow.com/users/4068708/ramiro" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
+      <a href="https://twitter.com/ramiroau" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="http://github.com/ramiroau" class="iconfont icon-github" title="github"></a>
+  <a href="http://localhost:1313/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Creado con <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Tema - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2020
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">R. Álvarez Ugarte</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  
+
+
+
+<script type="text/javascript" src="/js/main.min.d7b7ada643c9c1a983026e177f141f7363b4640d619caf01d8831a6718cd44ea.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="https://unpkg.com/d3-milestones/build/d3-milestones.css">
+  <script src="https://unpkg.com/d3-milestones/build/d3-milestones.min.js"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Líneas de tiempo - R. Álvarez Ugarte - sitio personal</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="R. Álvarez Ugarte" /><meta name="description" content="Sin pizarrón no podemos hacer las &amp;ldquo;líneas de tiempo&amp;rdquo; que siempre hacemos (¡la dimensión temporal explica muchas cosas!). En Derecho Constitucional y Cambio Social, la clase que damos con I.J. desde hace muchos años, siempre hablamos sobre el movimiento de DDHH y siempre hacemos una línea de tiempo en el pizarrón, contando la historia en sí y los distintos hitos legales que fueron ocurriendo con el correr de los años." /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.68.3 with theme even" />
+
+
+<link rel="canonical" href="http://localhost:1313/blog/lineasdetiempo/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.78f8f17bab244b9ee62ad16480c9584d5fc2db06ae20681d1ca225cefd80767c.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/css//static/mine.css">
+
+
+<meta property="og:title" content="Líneas de tiempo" />
+<meta property="og:description" content="Sin pizarrón no podemos hacer las &ldquo;líneas de tiempo&rdquo; que siempre hacemos (¡la dimensión temporal explica muchas cosas!). En Derecho Constitucional y Cambio Social, la clase que damos con I.J. desde hace muchos años, siempre hablamos sobre el movimiento de DDHH y siempre hacemos una línea de tiempo en el pizarrón, contando la historia en sí y los distintos hitos legales que fueron ocurriendo con el correr de los años." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/blog/lineasdetiempo/" />
+<meta property="article:published_time" content="2020-05-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-05-19T00:00:00+00:00" />
+<meta itemprop="name" content="Líneas de tiempo">
+<meta itemprop="description" content="Sin pizarrón no podemos hacer las &ldquo;líneas de tiempo&rdquo; que siempre hacemos (¡la dimensión temporal explica muchas cosas!). En Derecho Constitucional y Cambio Social, la clase que damos con I.J. desde hace muchos años, siempre hablamos sobre el movimiento de DDHH y siempre hacemos una línea de tiempo en el pizarrón, contando la historia en sí y los distintos hitos legales que fueron ocurriendo con el correr de los años.">
+<meta itemprop="datePublished" content="2020-05-19T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-05-19T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="602">
+
+
+
+<meta itemprop="keywords" content="R," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Líneas de tiempo"/>
+<meta name="twitter:description" content="Sin pizarrón no podemos hacer las &ldquo;líneas de tiempo&rdquo; que siempre hacemos (¡la dimensión temporal explica muchas cosas!). En Derecho Constitucional y Cambio Social, la clase que damos con I.J. desde hace muchos años, siempre hablamos sobre el movimiento de DDHH y siempre hacemos una línea de tiempo en el pizarrón, contando la historia en sí y los distintos hitos legales que fueron ocurriendo con el correr de los años."/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">R. Álvarez Ugarte</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/blog/">
+        <li class="mobile-menu-item">Archivos</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Etiquetas</li>
+      </a><a href="/publicaciones/">
+        <li class="mobile-menu-item">Publicaciones</li>
+      </a><a href="/clases/">
+        <li class="mobile-menu-item">Clases</li>
+      </a><a href="/recursos/">
+        <li class="mobile-menu-item">Recursos</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">R. Álvarez Ugarte
+      <a href="mailto:ramiroau@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://twitter.com/ramiroau" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://ramiroau.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a></a>
+</div>
+
+<style>
+
+.header .site-navbar .menu  {
+
+  font-size: 4px;
+}
+
+.header .logo-wrapper .logo {
+
+    font-family: 'Jost', 'Futura', 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.mobile-navbar .mobile-header-logo .logo a {
+ 
+    font-family: 'Jost', 'Futura', 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.post-header .post-title {
+
+  font-family: 'Jost', 'Futura';
+
+}
+
+.element.style {
+  list-style: square inside;
+  list-style-type: disc;
+}
+
+}
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Alegreya&display=swap" rel="stylesheet">
+
+
+</style>
+
+
+
+<nav class="site-navbar">
+  <link rel="stylesheet" href="http://localhost:1313//css/mine.css">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/blog/">Archivos</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Etiquetas</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/publicaciones/">Publicaciones</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/clases/">Clases</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/recursos/">Recursos</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Líneas de tiempo</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 19 May 2020 </span>
+        <div class="post-category">
+            <a href="/tags/r/"> R </a>
+            </div>
+        
+      </div>
+      
+      
+      <script async src="https://unpkg.com/mermaid@8.2.3/dist/mermaid.min.js"></script>
+      
+    </header>
+
+    
+
+    
+
+    
+    <div class="post-content">
+      <p>Sin pizarrón no podemos hacer las &ldquo;líneas de tiempo&rdquo; que siempre hacemos (¡la dimensión temporal explica muchas cosas!). En <em>Derecho Constitucional y Cambio Social</em>, la clase que damos con I.J. desde hace muchos años, <em>siempre</em> hablamos sobre el movimiento de DDHH y <em>siempre</em> hacemos una línea de tiempo en el pizarrón, contando la historia en sí y los distintos hitos legales que fueron ocurriendo con el correr de los años.</p>
+<p>Me puse a buscar la forma de armar una línea de tiempo sencilla. Primero intenté con una versión de <a href="https://mermaid-js.github.io/mermaid/#/gantt">Mermaid</a> que no está mal pero funciona mejor para otras cosas (p.ej., para los hechos de casos de DDHH, que en general son complejos y están muy desordenados). Terminé haciéndolo en <code>ggplot2</code>, siguiendo <a href="https://benalexkeen.com/creating-a-timeline-graphic-using-r-and-ggplot2/">este modelo</a>. El código, más abajo.</p>
+<h1 id="historia-del-mdh">Historia del MDH</h1>
+<p><img src="/pics/timeline_mdh.png#superwider" alt="" title="Principales hitos legales del MDH"></p>
+<p><code>timeline_mdh.csv</code></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">milestone,date,status
+Visita CIDH,1979-09-06,Normal
+Fundación del CELS,1980-03-01,Normal
+Guerra de Malvinas,1982-04-01,Normal
+Ley de Autoamnistía,1983-09-22,Retroceso
+CONADEP,1983-12-15,Avance
+Informe Nunca Más,1984-09-20,Avance
+Juicio a las Juntas,1985-04-22,Avance
+Ley de Punto Final,1986-12-05,Retroceso
+Levantamiento de Aldo Rico,1987-04-16,Retroceso
+Ley de Obediencia Debida,1987-05-13,Retroceso
+Indultos de CSM,1989-10-07,Retroceso
+Reforma constitucional (Tratados de DDHH),1994-08-22,Normal
+Juicios por la verdad (La Plata),1998-09-01,Avance
+Comienza el caso Scilingo en España,1996-03-28,Normal
+Comienza el caso Lapacó en CIDH,1998-10-07,Normal
+Cavallo declara nulidad de leyes de aministía,2001-03-06,Avance
+Congreso declarar nulidad de leyes de aministía (Ley 25.779),2003-08-02,Avance
+Caso Simón (CSJN) -&gt; reapertura juicios,2005-06-14,Avance
+Caso Mazzeo (CSJN),2007-07-13,Normal
+Caso Bignone (CSJN),2017-05-03,Normal
+Marcha contra caso Muiña,2017-05-10,Normal
+Ley interpretativa 27.632,2017-05-12,Normal
+Caso Batalla(CSJN),2018-12-04,Normal
+</code></pre></td></tr></table>
+</div>
+</div><p>Código en R con <code>ggplot</code>, <code>lubridate</code>, <code>scales</code> →</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span><span class="lnt">62
+</span><span class="lnt">63
+</span><span class="lnt">64
+</span><span class="lnt">65
+</span><span class="lnt">66
+</span><span class="lnt">67
+</span><span class="lnt">68
+</span><span class="lnt">69
+</span><span class="lnt">70
+</span><span class="lnt">71
+</span><span class="lnt">72
+</span><span class="lnt">73
+</span><span class="lnt">74
+</span><span class="lnt">75
+</span><span class="lnt">76
+</span><span class="lnt">77
+</span><span class="lnt">78
+</span><span class="lnt">79
+</span><span class="lnt">80
+</span><span class="lnt">81
+</span><span class="lnt">82
+</span><span class="lnt">83
+</span><span class="lnt">84
+</span><span class="lnt">85
+</span><span class="lnt">86
+</span><span class="lnt">87
+</span><span class="lnt">88
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">df &lt;- read.csv(&#39;timeline_mdh.csv&#39;)
+
+df &lt;- df[with(df, order(date)), ]
+
+status_levels &lt;- c(&#34;Retroceso&#34;, &#34;Normal&#34;, &#34;Avance&#34;)
+status_colors &lt;- c(&#34;#008000&#34;,&#34;#0070C0&#34;,&#34;#C00000&#34;)
+
+# Para que los distintos hitos no se superpongan expandí las opciones posibles de ubicación en el eje y 
+
+positions &lt;- c(0.25, -0.25, 0.5, -0.5, 0.75, -0.75, 1.0, -1.0, 1.25, -1.25, 1.5, -1.5)
+directions &lt;- c(1, -1)
+
+line_pos &lt;- data.frame(
+  &#34;date&#34;=unique(df$date),
+  &#34;position&#34;=rep(positions, length.out=length(unique(df$date))),
+  &#34;direction&#34;=rep(directions, length.out=length(unique(df$date)))
+)
+
+df &lt;- merge(x=df, y=line_pos, by=&#34;date&#34;, all = TRUE)
+
+df &lt;- df[with(df, order(date)), ]
+
+text_offset &lt;- 0.05
+
+# Para meses, mejor hacerlo y scarlo luego (así queda el template para hacer líneas de tiempo más cortas)
+
+df$month_count &lt;- ave(df$date==df$date, df$date, FUN=cumsum)
+
+df$text_position &lt;- (df$month_count * text_offset * df$direction) + df$position
+
+df &lt;- df %&gt;%
+  mutate(date = as.Date(date, &#34;%Y-%m-%d&#34;))
+
+month_date_range &lt;- seq(min(df$date) - months(month_buffer), max(df$date) + months(month_buffer), by=&#39;month&#39;)
+
+month_format &lt;- format(month_date_range, &#39;%m&#39;)
+
+month_df &lt;- data.frame(month_date_range, month_format)
+
+year_date_range &lt;- seq(min(df$date) - months(month_buffer), max(df$date) + months(month_buffer), by=&#39;year&#39;)
+
+year_date_range &lt;- as.Date(
+  intersect(
+    ceiling_date(year_date_range, unit=&#34;year&#34;),
+    floor_date(year_date_range, unit=&#34;year&#34;)
+  ),  origin = &#34;1970-01-01&#34;
+)
+
+# Años de a dos números mejor que cuatro 
+
+year_format &lt;- format(year_date_range, &#39;%y&#39;)
+
+year_df &lt;- data.frame(year_date_range, year_format)
+
+timeline_plot&lt;-ggplot(df,aes(x=date,y=0, col=status, label=milestone))
+
+timeline_plot&lt;-timeline_plot+labs(col=&#34;Milestones&#34;)
+
+timeline_plot&lt;-timeline_plot+scale_color_manual(values=status_colors, labels=status_levels, drop = FALSE)
+
+# Los meses se plotean con esto --&gt; pero me lo salteo 
+
+timeline_plot&lt;-timeline_plot+geom_text(data=month_df, aes(x=month_date_range,y=-0.1,label=month_format),size=2,vjust=0.5, color=&#39;black&#39;, angle=0)
+
+timeline_plot&lt;-timeline_plot+theme_classic()
+
+timeline_plot&lt;-timeline_plot+geom_hline(yintercept=0, color = &#34;black&#34;, size=0.3, family = &#34;Jost* Book&#34;)
+
+timeline_plot&lt;-timeline_plot+geom_segment(data=df[df$month_count == 1,], aes(y=position,yend=0,xend=date), color=&#39;black&#39;, family = &#34;Jost* Book&#34;, size=0.2)
+
+timeline_plot&lt;-timeline_plot+geom_point(aes(y=0), size=3)
+
+timeline_plot&lt;-timeline_plot+theme(axis.line.y=element_blank(),
+                                   axis.text.y=element_blank(),
+                                   axis.title.x=element_blank(),
+                                   axis.title.y=element_blank(),
+                                   axis.ticks.y=element_blank(),
+                                   axis.text.x =element_blank(),
+                                   axis.ticks.x =element_blank(),
+                                   axis.line.x =element_blank(),
+                                   legend.position = &#34;bottom&#34;
+)
+
+timeline_plot&lt;-timeline_plot+geom_text(data=year_df, aes(x=year_date_range,y=-0.1,label=year_format, fontface=&#34;bold&#34;, family = &#34;Jost* Book&#34;),size=3, color=&#39;black&#39;)
+
+timeline_plot&lt;-timeline_plot+geom_text(aes(y=text_position,label=milestone),size=4.5, family = &#34;Jost* Book&#34;) + theme(legend.position = &#34;none&#34;)
+
+print(timeline_plot)
+</code></pre></td></tr></table>
+</div>
+</div>
+    </div>
+
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/r/">R</a>
+          </div>
+      <nav class="post-nav">
+        
+        <a class="next" href="/blog/pandemia/">
+            <span class="next-text nav-default">Pandemia, clases y Zoom</span>
+            <span class="next-text nav-mobile">Siguiente</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:ramiroau@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://stackoverflow.com/users/4068708/ramiro" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
+      <a href="https://twitter.com/ramiroau" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="http://github.com/ramiroau" class="iconfont icon-github" title="github"></a>
+  <a href="http://localhost:1313/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Creado con <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Tema - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2020
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">R. Álvarez Ugarte</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  
+
+
+
+<script type="text/javascript" src="/js/main.min.d7b7ada643c9c1a983026e177f141f7363b4640d619caf01d8831a6718cd44ea.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

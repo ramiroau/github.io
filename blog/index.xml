@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Clases on R. Álvarez Ugarte - sitio personal</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Clases on R. Álvarez Ugarte - sitio personal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>R. Álvarez Ugarte</copyright>
+    <lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Líneas de tiempo</title>
+      <link>http://localhost:1313/blog/lineasdetiempo/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/lineasdetiempo/</guid>
+      <description>Sin pizarrón no podemos hacer las &amp;ldquo;líneas de tiempo&amp;rdquo; que siempre hacemos (¡la dimensión temporal explica muchas cosas!). En Derecho Constitucional y Cambio Social, la clase que damos con I.J. desde hace muchos años, siempre hablamos sobre el movimiento de DDHH y siempre hacemos una línea de tiempo en el pizarrón, contando la historia en sí y los distintos hitos legales que fueron ocurriendo con el correr de los años.</description>
+    </item>
+    
+    <item>
+      <title>Pandemia, clases y Zoom</title>
+      <link>http://localhost:1313/blog/pandemia/</link>
+      <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/pandemia/</guid>
+      <description>Ya van varias semanas de clases virtuales y parece un buen momento para reflexionar sobre posible enseñanzas, al menos provisionalmente.
+  La elección tecnológica. Uno puede imaginar mil escenarios posibles, pero al final de cuentas termina eligiendo la opción tecnológica que está mejor distribuida entre todos los alumnos. A nivel maestría (profesionales, grupo pequeño), el sistema Blackboard funcionó bastante bien (es una especie de Zoom para el cual la universidad ya tiene licencia).</description>
+    </item>
+    
+  </channel>
+</rss>

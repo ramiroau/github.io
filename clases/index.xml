@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Clases on R. Álvarez Ugarte - sitio personal</title>
+    <link>http://localhost:1313/clases/</link>
+    <description>Recent content in Clases on R. Álvarez Ugarte - sitio personal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>R. Álvarez Ugarte</copyright>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/clases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Facultad de Derecho, Universidad de Buenos Aires</title>
+      <link>http://localhost:1313/clases/programa_uba_v15_parapagina/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/clases/programa_uba_v15_parapagina/</guid>
+      <description>Elementos de derecho constitucional Cátedra Gargarella-Bouzat
+Comisión 6661
+Introducción El derecho constitucional es una de las principales ramas del derecho: él se enfoca en las grandes estructuras jurídicas que rigen la vida de una comunidad. El derecho constitucional se vincula a la organización y distribución del poder, en estructuras formales que funcionan de acuerdo a reglas (y prácticas) específicas. La distribución del poder en una comunidad democrática es una cuestión compleja: en esta materia se aborda la dimensión formal de esta cuestión, con foco en lo que la Constitución Nacional establece.</description>
+    </item>
+    
+    <item>
+      <title>Facultad de Derecho, Universidad de Palermo</title>
+      <link>http://localhost:1313/clases/dconstitucionali/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/clases/dconstitucionali/</guid>
+      <description>Derecho Constitucional I Objetivo El objetivo es que los alumnos y alumnas aprendan la estructura básica del derecho constitucional argentino. Ello implica conocer la relación de nuestras instituciones con la democracia y las formas particulares en que nuestro país ha abordado, en distintos momentos de su historia, el complejo desafío del autogobierno colectivo. Se espera en este sentido que al final de la cursada los alumnos puedan explicar la estructura institucional argentina y abordarla críticamente, pudiendo identificar los orígenes y las fortalezas, debilidades y desafíos que el esquema actual presenta desde el punto de vista de ideales democráticos que veremos a lo largo de la cursada.</description>
+    </item>
+    
+    <item>
+      <title>Maestría en Derecho Constitucional, Universidad de Palermo</title>
+      <link>http://localhost:1313/clases/programa_up_v1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/clases/programa_up_v1/</guid>
+      <description>Derecho constitucional y cambio social Introducción El objetivo general del curso es reflexionar en torno a las formas de vinculación entre el derecho&amp;mdash;en particular el derecho constitucional&amp;mdash;y los procesos de cambio social. El curso se propone explorar las tensiones, articulaciones y relaciones en general entre el derecho y los movimientos sociales, como actores primordiales de cambio. Para ello, repasaremos los modos en que el derecho influye, determina, y moldea los movimientos sociales; a su vez, cómo éstos contribuyen, resisten e interpelan al derecho a través de diversos mecanismos.</description>
+    </item>
+    
+    <item>
+      <title>Poder judicial y democracia. TEP 2019. Facultad de Derecho UBA</title>
+      <link>http://localhost:1313/clases/tep_site/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/clases/tep_site/</guid>
+      <description>Poder judicial y democracia: una historia del debate &amp;ldquo;contramayoritario&amp;rdquo; en Estados Unidos Introducción Este Taller de Estudio Profundizado abordará textos clásicos de la academia legal de los Estados Unidos sobre la &amp;ldquo;dificultad contramayoritaria&amp;rdquo;, una de las cuestiones que más reflexión han generado en la teoría constitucional contemporánea. En ocho sesiones, recorreremos trabajos pioneros que, desde la teoría y el análisis legal, empujaron la discusión hacia adelante. Estos trabajos coinciden, en general, en una pregunta esencial que aún no tiene una respuesta definitiva: ¿cómo podemos compatibilizar el control judicial de constitucionalidad con un sistema democrático que asume que aquí, gobierna el pueblo?</description>
+    </item>
+    
+  </channel>
+</rss>
