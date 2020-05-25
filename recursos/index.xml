@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recursos on R. Álvarez Ugarte - sitio personal</title>
-    <link>http://localhost:1313/recursos/</link>
+    <link>http://ramiroau.github.io/recursos/</link>
     <description>Recent content in Recursos on R. Álvarez Ugarte - sitio personal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>R. Álvarez Ugarte</copyright>
     
-	<atom:link href="http://localhost:1313/recursos/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ramiroau.github.io/recursos/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Citas legales y automatización</title>
-      <link>http://localhost:1313/recursos/citas/</link>
+      <link>http://ramiroau.github.io/recursos/citas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/recursos/citas/</guid>
+      <guid>http://ramiroau.github.io/recursos/citas/</guid>
       <description>Recuerdo que trabajar con las citas de un borrador era engorroso, pero es un recuerdo lejano: hace más de diez años que delego en la computadora el manejo de las citas. Ello es posible gracias a pandoc-citeproc, el compañero imprescindible de Pandoc. Se trata de una extensión que detecta nuestras indicaciones en términos del documento al que referímos y el número de página, capítulo o párrafo del que extraemos la cita o al que queremos hacer referencia, p.</description>
     </item>
     
     <item>
       <title>Escritura en plain text</title>
-      <link>http://localhost:1313/recursos/plain_text/</link>
+      <link>http://ramiroau.github.io/recursos/plain_text/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/recursos/plain_text/</guid>
+      <guid>http://ramiroau.github.io/recursos/plain_text/</guid>
       <description>La escritura en plain text es una modalidad de producción que busca priorizar la escritura en sí y separarla de las cuestiones de formato: las decisiones tipográficas, el manejo de la bibliografía y la elección de algún tipo de estilo de citas. Hay muchos caminos para empezar: yo empecé con Markdown, un lenguaje simple que se aprende en diez minutos. Los archivos guardados en este formato pesan muy poco y son, por definición, multiplataforma: cualquier sistema operativo puede abrirlos, editarlos, y guardarlos.</description>
     </item>
     
     <item>
       <title>Sistemas de administración de bibliografía</title>
-      <link>http://localhost:1313/recursos/bibliografia/</link>
+      <link>http://ramiroau.github.io/recursos/bibliografia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/recursos/bibliografia/</guid>
+      <guid>http://ramiroau.github.io/recursos/bibliografia/</guid>
       <description>La producción académica requiere (consiste en) la revisión de grandes volumenes de información. Necesitamos no sólo tenerla cerca, sino ordenada: poder acceder a ese paper, a ese libro, de una manera más o menos rápida. Para eso yo uso Zotero, una herramienta de software libre muy dinámica y flexible. Realiza tres grandes operaciones que encuentro útiles: (a) agrega papers / libros de Internet y toma los datos bibliográficos de manera automática (funciona bien, un 75% del tiempo), (b) maneja los adjuntos y los coloca en una carpeta específica y (c) permite exportar la bibliografía en el formato que querramos.</description>
     </item>
     
     <item>
       <title>Socio-legal research on Argentina. Privacy Policy</title>
-      <link>http://localhost:1313/recursos/privacypolicy/</link>
+      <link>http://ramiroau.github.io/recursos/privacypolicy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/recursos/privacypolicy/</guid>
+      <guid>http://ramiroau.github.io/recursos/privacypolicy/</guid>
       <description>This is the privacy policy of the research project &amp;ldquo;Socio-legal research and Social Networks: Connections Between Academia and the Legal Field in Argentina&amp;rdquo;. The policy states the following:
 Objectives of research The research focuses on registering social networks within the Buenos Aires (Argentina) legal community, specially in order to describe the links between legal academia, the judiciary, and the legal profession. It takes as &amp;ldquo;subjects&amp;rdquo; legal professionals, judges, prosecutors, and law professors.</description>
     </item>

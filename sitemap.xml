@@ -1,266 +1,266 @@
-<?xml-stylesheet type="text/xsl" href="http://localhost:1313/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="http://ramiroau.github.io/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>http://ramiroau.github.io/blog/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/blog/lineasdetiempo/</loc>
+    <loc>http://ramiroau.github.io/blog/lineasdetiempo/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/publicaciones/</loc>
+    <loc>http://ramiroau.github.io/publicaciones/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/r/</loc>
+    <loc>http://ramiroau.github.io/tags/r/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://ramiroau.github.io/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://ramiroau.github.io/tags/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/publicaciones/pro_life/</loc>
+    <loc>http://ramiroau.github.io/publicaciones/pro_life/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/blog/pandemia/</loc>
+    <loc>http://ramiroau.github.io/blog/pandemia/</loc>
     <lastmod>2020-04-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/profesoring/</loc>
+    <loc>http://ramiroau.github.io/tags/profesoring/</loc>
     <lastmod>2020-04-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/publicaciones/clough2019-copy/</loc>
+    <loc>http://ramiroau.github.io/publicaciones/clough2019-copy/</loc>
     <lastmod>2020-01-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/publicaciones/clough2019/</loc>
+    <loc>http://ramiroau.github.io/publicaciones/clough2019/</loc>
     <lastmod>2020-01-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/clases/</loc>
+    <loc>http://ramiroau.github.io/clases/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/clases/programa_uba_v15_parapagina/</loc>
+    <loc>http://ramiroau.github.io/clases/programa_uba_v15_parapagina/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/publicaciones/foi/</loc>
+    <loc>http://ramiroau.github.io/publicaciones/foi/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/publicaciones/comentario14/</loc>
+    <loc>http://ramiroau.github.io/publicaciones/comentario14/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/publicaciones/comentario32/</loc>
+    <loc>http://ramiroau.github.io/publicaciones/comentario32/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/publicaciones/lobby/</loc>
+    <loc>http://ramiroau.github.io/publicaciones/lobby/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/publicaciones/tareas_pendientes/</loc>
+    <loc>http://ramiroau.github.io/publicaciones/tareas_pendientes/</loc>
     <lastmod>2016-08-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/publicaciones/protest/</loc>
+    <loc>http://ramiroau.github.io/publicaciones/protest/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/publicaciones/comentariolde/</loc>
+    <loc>http://ramiroau.github.io/publicaciones/comentariolde/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/publicaciones/clough2017/</loc>
+    <loc>http://ramiroau.github.io/publicaciones/clough2017/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/publicaciones/clough2018/</loc>
+    <loc>http://ramiroau.github.io/publicaciones/clough2018/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/publicaciones/aporia/</loc>
+    <loc>http://ramiroau.github.io/publicaciones/aporia/</loc>
     <lastmod>2014-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/publicaciones/acceso/</loc>
+    <loc>http://ramiroau.github.io/publicaciones/acceso/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/clases/dconstitucionali/</loc>
+    <loc>http://ramiroau.github.io/clases/dconstitucionali/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/publicaciones/mirada/</loc>
+    <loc>http://ramiroau.github.io/publicaciones/mirada/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/publicaciones/dinamicas/</loc>
+    <loc>http://ramiroau.github.io/publicaciones/dinamicas/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/publicaciones/ultimapalabra/</loc>
+    <loc>http://ramiroau.github.io/publicaciones/ultimapalabra/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/publicaciones/esforzado/</loc>
+    <loc>http://ramiroau.github.io/publicaciones/esforzado/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/publicaciones/inteligencia/</loc>
+    <loc>http://ramiroau.github.io/publicaciones/inteligencia/</loc>
     <lastmod>2011-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://ramiroau.github.io/about/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/recursos/citas/</loc>
+    <loc>http://ramiroau.github.io/recursos/citas/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/publicaciones/experiencias_deliberativas/</loc>
+    <loc>http://ramiroau.github.io/publicaciones/experiencias_deliberativas/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/recursos/plain_text/</loc>
+    <loc>http://ramiroau.github.io/recursos/plain_text/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/clases/programa_up_v1/</loc>
+    <loc>http://ramiroau.github.io/clases/programa_up_v1/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/clases/tep_site/</loc>
+    <loc>http://ramiroau.github.io/clases/tep_site/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/recursos/</loc>
+    <loc>http://ramiroau.github.io/recursos/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/recursos/bibliografia/</loc>
+    <loc>http://ramiroau.github.io/recursos/bibliografia/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/recursos/privacypolicy/</loc>
+    <loc>http://ramiroau.github.io/recursos/privacypolicy/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

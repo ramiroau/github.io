@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>profesoring on R. Álvarez Ugarte - sitio personal</title>
-    <link>http://localhost:1313/tags/profesoring/</link>
+    <link>http://ramiroau.github.io/tags/profesoring/</link>
     <description>Recent content in profesoring on R. Álvarez Ugarte - sitio personal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>R. Álvarez Ugarte</copyright>
     <lastBuildDate>Thu, 09 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/profesoring/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ramiroau.github.io/tags/profesoring/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Pandemia, clases y Zoom</title>
-      <link>http://localhost:1313/blog/pandemia/</link>
+      <link>http://ramiroau.github.io/blog/pandemia/</link>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/pandemia/</guid>
+      <guid>http://ramiroau.github.io/blog/pandemia/</guid>
       <description>Ya van varias semanas de clases virtuales y parece un buen momento para reflexionar sobre posible enseñanzas, al menos provisionalmente.
   La elección tecnológica. Uno puede imaginar mil escenarios posibles, pero al final de cuentas termina eligiendo la opción tecnológica que está mejor distribuida entre todos los alumnos. A nivel maestría (profesionales, grupo pequeño), el sistema Blackboard funcionó bastante bien (es una especie de Zoom para el cual la universidad ya tiene licencia).</description>
     </item>
