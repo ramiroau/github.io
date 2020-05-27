@@ -20,6 +20,17 @@ img + em {
     font-size: 85%;
 }
 
+.post-copyright .copyright-item {
+	font-family: monospace;
+	font-style: normal;
+	font-size: 14px;
+	font-weight: 400;
+	color: #34495e;
+}
+
+}
+
+
 .post .post-content img[src*="#wider"] {
     display: inline-block;
     max-width: 120%;
