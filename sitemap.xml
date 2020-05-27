@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://ramiroau.github.io/blog/</loc>
-    <lastmod>2020-05-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://ramiroau.github.io/onr/esteves2012/</loc>
     <lastmod>2020-05-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -23,13 +16,6 @@
   </url>
   
   <url>
-    <loc>http://ramiroau.github.io/blog/onr/draft/</loc>
-    <lastmod>2020-05-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://ramiroau.github.io/onr/jochnick1999/</loc>
     <lastmod>2020-05-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -38,13 +24,6 @@
   
   <url>
     <loc>http://ramiroau.github.io/onr/kemp2013/</loc>
-    <lastmod>2020-05-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://ramiroau.github.io/tags/misc/</loc>
     <lastmod>2020-05-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -79,13 +58,6 @@
   </url>
   
   <url>
-    <loc>http://ramiroau.github.io/tags/</loc>
-    <lastmod>2020-05-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://ramiroau.github.io/onr/timeline/</loc>
     <lastmod>2020-05-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -93,7 +65,28 @@
   </url>
   
   <url>
+    <loc>http://ramiroau.github.io/blog/</loc>
+    <lastmod>2020-05-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/tags/misc/</loc>
+    <lastmod>2020-05-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://ramiroau.github.io/blog/nadieslapatria/</loc>
+    <lastmod>2020-05-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/tags/</loc>
     <lastmod>2020-05-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
