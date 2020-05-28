@@ -275,6 +275,18 @@
   </url>
   
   <url>
+    <loc>http://ramiroau.github.io/etc/presentacion/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/readlater/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://ramiroau.github.io/about/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -294,6 +306,12 @@
   
   <url>
     <loc>http://ramiroau.github.io/recursos/plain_text/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
