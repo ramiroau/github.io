@@ -7,6 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>R. Álvarez Ugarte</copyright>
+    <lastBuildDate>Fri, 29 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ramiroau.github.io/etc/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,7 +18,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://ramiroau.github.io/etc/presentacion/</guid>
-      <description>Esta sección del sitio se inspira en el concepto de digital gardens que me presentó Claudio Ruiz. Es exploratoria, una mezcla de repositorio de cosas que veo y me interesan, que quiero leer&amp;mdash;y aún no pude&amp;mdash;, o que quiero guardar, etcétera. Por ahora está basado en Pocket y en un cliente de línea de comando que se llama Pockyt y que me resulta muy fácil de usar para producir (supongo que una vez por mes) los contenidos que van a ir apareciendo acá, en forma (por ahora) de listas.</description>
+      <description>Esta sección del sitio se inspira en el concepto de digital gardens que me presentó Claudio Ruiz. Es exploratoria, una mezcla de repositorio de cosas que veo y me interesan, que quiero leer&amp;mdash;y aún no pude&amp;mdash;, o que quiero guardar, etcétera. Los links están basados en Pocket y en un cliente de línea de comando que se llama Pockyt y que me resulta muy fácil de usar para producir (supongo que una vez por mes) los contenidos que van a ir apareciendo acá, en forma (por ahora) de listas.</description>
     </item>
     
     <item>

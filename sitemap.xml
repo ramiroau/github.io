@@ -2,6 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ramiroau.github.io/etc/wikis/interpretation/aventuras/</loc>
+    <lastmod>2020-05-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/</loc>
+    <lastmod>2020-05-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/wikis/typography/lista_de_fuentes/</loc>
+    <lastmod>2020-05-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/</loc>
+    <lastmod>2020-05-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/wikis/sovereignty/representations_of_the_people/</loc>
+    <lastmod>2020-05-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/wikis/</loc>
+    <lastmod>2020-05-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/wikis/interpretation/</loc>
+    <lastmod>2020-05-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/wikis/sovereignty/</loc>
+    <lastmod>2020-05-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/wikis/typography/</loc>
+    <lastmod>2020-05-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://ramiroau.github.io/onr/esteves2012/</loc>
     <lastmod>2020-05-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -38,13 +101,6 @@
   
   <url>
     <loc>http://ramiroau.github.io/onr/paust2001/</loc>
-    <lastmod>2020-05-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://ramiroau.github.io/</loc>
     <lastmod>2020-05-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -311,12 +367,6 @@
   </url>
   
   <url>
-    <loc>http://ramiroau.github.io/etc/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://ramiroau.github.io/clases/programa_up_v1/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -342,6 +392,12 @@
   
   <url>
     <loc>http://ramiroau.github.io/recursos/privacypolicy/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/wikis/racial_justice/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wikis on R. Álvarez Ugarte - sitio personal</title>
+    <link>http://ramiroau.github.io/etc/wikis/interpretation/</link>
+    <description>Recent content in Wikis on R. Álvarez Ugarte - sitio personal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>R. Álvarez Ugarte</copyright>
+    <lastBuildDate>Fri, 29 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://ramiroau.github.io/etc/wikis/interpretation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Aventuras en la interpretación</title>
+      <link>http://ramiroau.github.io/etc/wikis/interpretation/aventuras/</link>
+      <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/etc/wikis/interpretation/aventuras/</guid>
+      <description>Distintas cosas sobre la difícil tarea de interpretar.
+A.Vermeule, lo entrevistan no cancherea -&amp;gt; https://mirrorofjustice.blogs.com/mirrorofjustice/2020/04/common-good-constitutionalism-interview-english-translation.html</description>
+    </item>
+    
+  </channel>
+</rss>

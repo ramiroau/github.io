@@ -20,6 +20,11 @@ img + em {
     font-size: 85%;
 }
 
+.boxed {
+  border: 1px solid gray;
+  background-color: gainsboro;
+}
+
 .post-copyright .copyright-item {
 	font-family: monospace;
 	font-style: normal;
@@ -100,6 +105,8 @@ h4, h5 {
 	color: #4d6d8c;
 	font-weight: 500;
 }
+
+
 
 h6 {
 	font-family: 'Jost', 'Futura', 'Source Sans Pro', sa;
