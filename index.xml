@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>R. Álvarez Ugarte</copyright>
-    <lastBuildDate>Fri, 29 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ramiroau.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The law on police killings</title>
+      <link>http://ramiroau.github.io/etc/wikis/racial_justice/police_impunity/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/etc/wikis/racial_justice/police_impunity/</guid>
+      <description>Una dimensión importante de los casos constantes es que hay &amp;ldquo;impunidad&amp;rdquo;, juega un rol la doctrina de qualified immunity, aparentemente totalmente judicial.
+ Qualified immunity is a legal doctrine in United States federal law that shields government officials from being sued for discretionary actions performed within their official capacity, unless their actions violated &amp;ldquo;clearly established&amp;rdquo; federal law or constitutional rights. Qualified immunity thus protects officials who &amp;ldquo;make reasonable but mistaken judgments about open legal questions&amp;rdquo;, but does not protect &amp;ldquo;the plainly incompetent or those who knowingly violate the law&amp;rdquo;.</description>
+    </item>
     
     <item>
       <title>Aventuras en la interpretación</title>
