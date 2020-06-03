@@ -2,14 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wikis on R. Álvarez Ugarte - sitio personal</title>
-    <link>http://ramiroau.github.io/etc/wikis/</link>
+    <link>http://ramiroau.github.io/etc/wikis/the_age_of_hope/</link>
     <description>Recent content in Wikis on R. Álvarez Ugarte - sitio personal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>R. Álvarez Ugarte</copyright>
-    <lastBuildDate>Wed, 03 Jun 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://ramiroau.github.io/etc/wikis/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ramiroau.github.io/etc/wikis/the_age_of_hope/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

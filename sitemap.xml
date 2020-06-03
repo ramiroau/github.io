@@ -2,35 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://ramiroau.github.io/</loc>
-    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
+    <loc>http://ramiroau.github.io/etc/wikis/racial_justice/outrages/</loc>
+    <lastmod>2020-06-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://ramiroau.github.io/etc/wikis/racial_justice/police_impunity/</loc>
-    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
+    <loc>http://ramiroau.github.io/</loc>
+    <lastmod>2020-06-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://ramiroau.github.io/etc/wikis/</loc>
-    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://ramiroau.github.io/etc/wikis/racial_justice/</loc>
-    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://ramiroau.github.io/etc/</loc>
+    <lastmod>2020-06-03T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/wikis/racial_justice/police_impunity/</loc>
     <lastmod>2020-06-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -406,6 +413,12 @@
   
   <url>
     <loc>http://ramiroau.github.io/recursos/privacypolicy/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/wikis/the_age_of_hope/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
