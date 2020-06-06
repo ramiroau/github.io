@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sociología on R. Álvarez Ugarte - sitio personal</title>
+    <link>http://ramiroau.github.io/tags/sociolog%C3%ADa/</link>
+    <description>Recent content in sociología on R. Álvarez Ugarte - sitio personal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>R. Álvarez Ugarte</copyright>
+    <lastBuildDate>Sat, 06 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://ramiroau.github.io/tags/sociolog%C3%ADa/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Unseeing cosas</title>
+      <link>http://ramiroau.github.io/blog/unseeing/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/blog/unseeing/</guid>
+      <description>Once you see the social construction of the law, you can&amp;rsquo;t unsee it 1. Es un problema serio para quienes nos dedicamos a algo parecido a un análisis sociológico del derecho, porque nos cuesta pivotear entre algo así como el punto de vista interno (PVI) que la argumentación jurídica requiere y el punto de vista externo (PVE) que&amp;mdash;en realidad&amp;mdash;explica gran parte del desarrollo jurídico. Es una cuestión a explorar más en profundidad, pero pensé en plantear acá el problema.</description>
+    </item>
+    
+  </channel>
+</rss>
