@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>R. Álvarez Ugarte</copyright>
-    <lastBuildDate>Fri, 29 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ramiroau.github.io/etc/wikis/interpretation/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Punto de vista interno / externo</title>
+      <link>http://ramiroau.github.io/etc/wikis/interpretation/punto_de_vista/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/etc/wikis/interpretation/punto_de_vista/</guid>
+      <description>Algunas notas sobre la cuestión del punto de vista interno (PVI) y externo (PVE) del derecho, à propós del dilema de ver / no ver la construcción social del derecho y mantener la capacidad de argumentar desde el punto de vista interno. ¿Qué casos muestran la falta de herramientas del PVI para dar cuenta de hechos políticos que no se expresan en cambios formales del derecho?.
+ El caso Sosa, sobre el procurador de Santa Cruz.</description>
+    </item>
     
     <item>
       <title>Aventuras en la interpretación</title>
