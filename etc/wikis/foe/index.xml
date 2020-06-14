@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wikis on R. Álvarez Ugarte - sitio personal</title>
+    <link>http://ramiroau.github.io/etc/wikis/foe/</link>
+    <description>Recent content in Wikis on R. Álvarez Ugarte - sitio personal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>R. Álvarez Ugarte</copyright>
+    <lastBuildDate>Sat, 13 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://ramiroau.github.io/etc/wikis/foe/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The perils of verification</title>
+      <link>http://ramiroau.github.io/etc/wikis/foe/the_perils_of_verification/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/etc/wikis/foe/the_perils_of_verification/</guid>
+      <description>Sobre la idea del &amp;ldquo;balance&amp;rdquo; y la &amp;ldquo;moderación&amp;rdquo; / factchecking Siempre me pareció que impugna el principio del &amp;ldquo;libre mercado de ideas&amp;rdquo;, de acuerdo al cual&amp;mdash;se supone&amp;mdash;somos los ciudadanos quienes debemos juzgar qué es verdadero o falso. Tenemos claro que el Estado no debe hacer eso, pero parecemos tener menos claro que también está mal (o que algo perdemos) si lo hacen &amp;ldquo;terceros&amp;rdquo; que autorizamos / pedimos que lo hagan por nosotros.</description>
+    </item>
+    
+  </channel>
+</rss>

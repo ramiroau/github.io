@@ -7,10 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>R. Álvarez Ugarte</copyright>
-    <lastBuildDate>Sat, 06 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ramiroau.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DNU, doctrina y práctica constitucional (urgente)</title>
+      <link>http://ramiroau.github.io/blog/dnus/</link>
+      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/blog/dnus/</guid>
+      <description>Sólo para compartir algunos datos que terminaron en un hilo de tuiter.
+Estuve mirando los datos sobre los dictamenes de la comisión bicameral que sigue los DNU dictados del Congreso. Sobre un N=219: - Recomienda validez del DNU = 190
+- Recomienda invalidez del DNU = 19
+- Empate (la comisión tiene 16 miembros) = 4
+- No logra mayoría = 6
+&amp;mdash; Rama (@ramiroau) June 14, 2020  Me interesaba mirar los datos de DNU y fui a la fuente original, Infoleg y SAIJ.</description>
+    </item>
     
     <item>
       <title>Unseeing cosas</title>
