@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>R. Álvarez Ugarte</copyright>
-    <lastBuildDate>Sat, 06 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ramiroau.github.io/etc/wikis/interpretation/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aventuras en la interpretación</title>
+      <link>http://ramiroau.github.io/etc/wikis/interpretation/aventuras/</link>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/etc/wikis/interpretation/aventuras/</guid>
+      <description>Distintas cosas sobre la difícil tarea de interpretar.
+A.Vermeule, lo entrevistan no cancherea -&amp;gt; https://mirrorofjustice.blogs.com/mirrorofjustice/2020/04/common-good-constitutionalism-interview-english-translation.html
+kitty can statch →
+Here&amp;#39;s Alito accusing Gorsuch of betraying Scalia. Alito is MAD. pic.twitter.com/p4Tk329t4I
+&amp;mdash; Mark Joseph Stern (@mjs_DC) June 15, 2020  </description>
+    </item>
     
     <item>
       <title>Punto de vista interno / externo</title>
@@ -20,16 +33,6 @@
       <guid>http://ramiroau.github.io/etc/wikis/interpretation/punto_de_vista/</guid>
       <description>Algunas notas sobre la cuestión del punto de vista interno (PVI) y externo (PVE) del derecho, à propós del dilema de ver / no ver la construcción social del derecho y mantener la capacidad de argumentar desde el punto de vista interno. ¿Qué casos muestran la falta de herramientas del PVI para dar cuenta de hechos políticos que no se expresan en cambios formales del derecho?.
  El caso Sosa, sobre el procurador de Santa Cruz.</description>
-    </item>
-    
-    <item>
-      <title>Aventuras en la interpretación</title>
-      <link>http://ramiroau.github.io/etc/wikis/interpretation/aventuras/</link>
-      <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://ramiroau.github.io/etc/wikis/interpretation/aventuras/</guid>
-      <description>Distintas cosas sobre la difícil tarea de interpretar.
-A.Vermeule, lo entrevistan no cancherea -&amp;gt; https://mirrorofjustice.blogs.com/mirrorofjustice/2020/04/common-good-constitutionalism-interview-english-translation.html</description>
     </item>
     
   </channel>
