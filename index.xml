@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>R. Álvarez Ugarte</copyright>
-    <lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ramiroau.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>La Guía Argentina de Citas Legales (versión 1.0)</title>
+      <link>http://ramiroau.github.io/blog/gacl/</link>
+      <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/blog/gacl/</guid>
+      <description>A diferencia de otras jurisdicciones (p.ej. Estados Unidos, Reino Unido, Australia), la comunidad legal de Argentina no tiene un estilo de citas unificado. Cada editor pide el estilo que desea y&amp;mdash;en general&amp;mdash;no adoptan uno que ya exista, sino que generan un estilo propio desarrollado ad-hoc que vuelcan a una guía de estilo propia (p.ej. la Revista Ambiental de la Universidad de Palermo, la Revista Argentina de Teoría Jurídica de la Universidad Di Tella, Lecciones y Ensayos, etcétera).</description>
+    </item>
     
     <item>
       <title>Aventuras en la interpretación</title>
