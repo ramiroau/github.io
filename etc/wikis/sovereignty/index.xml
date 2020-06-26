@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>R. Álvarez Ugarte</copyright>
-    <lastBuildDate>Fri, 29 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ramiroau.github.io/etc/wikis/sovereignty/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Guerras civiles inglesas</title>
+      <link>http://ramiroau.github.io/etc/wikis/sovereignty/english_civil_wars/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/etc/wikis/sovereignty/english_civil_wars/</guid>
+      <description>Empezaría por mil libros, pero este podcast es extraordinario</description>
+    </item>
     
     <item>
       <title>Representations of the people</title>

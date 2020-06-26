@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>R. Álvarez Ugarte</copyright>
-    <lastBuildDate>Thu, 04 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ramiroau.github.io/etc/wikis/platforms/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,10 +15,20 @@
     <item>
       <title>Platforms and Free Speech</title>
       <link>http://ramiroau.github.io/etc/wikis/platforms/platforms_and_free_speech/</link>
-      <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>http://ramiroau.github.io/etc/wikis/platforms/platforms_and_free_speech/</guid>
       <description>Desde hace algún tiempo (circa 2016) las plataformas están &amp;ldquo;bajo presión&amp;rdquo;, para lidiar con distintos temas. Una historia completa de esta cuestión debería empezar&amp;mdash;al menos&amp;mdash;con la ley francesa respecto de la promoción del nazismo, y las consecuencias que tuvo en distintas plataformas (de memoria: el sitio de eBay en Francia se vio obligado a filtrar contenidos disponibles en e.j., EEUU). Esta historia es compleja &amp;mdash; acá van algunos apuntes importantes.</description>
+    </item>
+    
+    <item>
+      <title>Bang, Bang</title>
+      <link>http://ramiroau.github.io/etc/wikis/platforms/bang_bang/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/etc/wikis/platforms/bang_bang/</guid>
+      <description>Europa  &amp;ldquo;In a decision that could further embolden European governments to take on large tech platforms, Germany’s top court ruled on Tuesday that Facebook had abused its dominance in social media to illegally harvest data about its users.&amp;rdquo; New York Times
+ </description>
     </item>
     
   </channel>

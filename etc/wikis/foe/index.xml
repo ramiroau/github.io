@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>R. Álvarez Ugarte</copyright>
-    <lastBuildDate>Sat, 13 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ramiroau.github.io/etc/wikis/foe/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ciberpatrullas lunáticas</title>
+      <link>http://ramiroau.github.io/etc/wikis/foe/ciberpatrullas_lunaticas/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/etc/wikis/foe/ciberpatrullas_lunaticas/</guid>
+      <description>Un periodista en Chaco es informado de una &amp;ldquo;infracción&amp;rdquo; (!) por difundir información &amp;ldquo;no oficial&amp;rdquo; (!!) sobre el COVID y es acusado de &amp;ldquo;virilizar&amp;rdquo; (!!!) información. Todo en un formulario que alguien creyó era una buena idea hacer. ¿Qué clase de reflexión constitucional pre-educación cívica de colegio secundario puede entrar en ese proceos de toma de decisiones?</description>
+    </item>
     
     <item>
       <title>The perils of verification</title>
