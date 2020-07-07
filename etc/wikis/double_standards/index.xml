@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wikis on R. Álvarez Ugarte - sitio personal</title>
+    <link>http://ramiroau.github.io/etc/wikis/double_standards/</link>
+    <description>Recent content in Wikis on R. Álvarez Ugarte - sitio personal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>R. Álvarez Ugarte</copyright>
+    <lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://ramiroau.github.io/etc/wikis/double_standards/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dobles varas y coreas del centros</title>
+      <link>http://ramiroau.github.io/etc/wikis/double_standards/corea_del_centro/</link>
+      <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/etc/wikis/double_standards/corea_del_centro/</guid>
+      <description>Un repositorio de clips dos males tremendos de época, con el objetivo de entender mejor. No se si están muy relacionados, si son lo mismo, o distintos pero parte del mismo problema
+Corea del Centro La posición correcta es la que se ubica en el medio de dos extremos. Como postulado general, es manifiestamente falso y de ahí el chiste: si los dos extremos son C. del Norte y C. del Sur, la posición correcta es C.</description>
+    </item>
+    
+  </channel>
+</rss>

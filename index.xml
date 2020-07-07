@@ -7,10 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>R. Álvarez Ugarte</copyright>
-    <lastBuildDate>Thu, 02 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ramiroau.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dobles varas y coreas del centros</title>
+      <link>http://ramiroau.github.io/etc/wikis/double_standards/corea_del_centro/</link>
+      <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/etc/wikis/double_standards/corea_del_centro/</guid>
+      <description>Un repositorio de clips dos males tremendos de época, con el objetivo de entender mejor. No se si están muy relacionados, si son lo mismo, o distintos pero parte del mismo problema
+Corea del Centro La posición correcta es la que se ubica en el medio de dos extremos. Como postulado general, es manifiestamente falso y de ahí el chiste: si los dos extremos son C. del Norte y C. del Sur, la posición correcta es C.</description>
+    </item>
+    
+    <item>
+      <title>Los límites de los DDHH</title>
+      <link>http://ramiroau.github.io/etc/wikis/human_rights/limites_ddhh/</link>
+      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/etc/wikis/human_rights/limites_ddhh/</guid>
+      <description>Hace tiempo que mi corazón se inclina a cierto escepticismo respecto de &amp;ldquo;los derechos&amp;rdquo;, que captura el siguiente tweet.
+No se si es una vuelta / un giro total, pero qué cosa con el &amp;quot;fetichismo&amp;quot; de los derechos. Mi propia evolución personal al respecto es notable. Pasé de pensar que &amp;quot;que todo sea derecho es mejor&amp;quot; a &amp;quot;que algo sea derecho complica más que ayuda&amp;quot; en menos de diez años.</description>
+    </item>
     
     <item>
       <title>Desinformación</title>
@@ -549,6 +569,15 @@ En la Argentina, este derecho recibió tradicionalmente una protección generosa
       
       <guid>http://ramiroau.github.io/recursos/plain_text/</guid>
       <description>La escritura en plain text es una modalidad de producción que busca priorizar la escritura en sí y separarla de las cuestiones de formato: las decisiones tipográficas, el manejo de la bibliografía y la elección de algún tipo de estilo de citas. Hay muchos caminos para empezar: yo empecé con Markdown, un lenguaje simple que se aprende en diez minutos. Los archivos guardados en este formato pesan muy poco y son, por definición, multiplataforma: cualquier sistema operativo puede abrirlos, editarlos, y guardarlos.</description>
+    </item>
+    
+    <item>
+      <title>Layers of crises: when pandemics meet institutional and economic havoc</title>
+      <link>http://ramiroau.github.io/publicaciones/layers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/publicaciones/layers/</guid>
+      <description>In Argentina, COVID-19 arrived late and gave the government a chance to prepare. It took that chance: for now, the contagion curve seems to be under control and after the enforcement of a country-wide lockdown, the health system seems to be coping well with the slow rise of cases. The situation is not, however, sustainable. The lockdown is battering an already heavily battered economy, and it is predictably and disproportionately affecting those who are worse off.</description>
     </item>
     
     <item>

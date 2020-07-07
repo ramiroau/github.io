@@ -63,6 +63,8 @@ img + em {
 	line-height: 1.6em;
 	background-color: #faf8f8;
 	-webkit-font-smoothing: antialiased;
+	hyphens: auto;
+	overflow-wrap: break-word;
 
 }
 
