@@ -7,18 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>R. Álvarez Ugarte</copyright>
-    <lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ramiroau.github.io/publicaciones/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>The Pro-Life Movement and the Constitution in Argentina</title>
-      <link>http://ramiroau.github.io/publicaciones/pro_life/</link>
-      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      <title>Layers of crises: when pandemics meet institutional and economic havoc</title>
+      <link>http://ramiroau.github.io/publicaciones/layers/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://ramiroau.github.io/publicaciones/pro_life/</guid>
-      <description>La historia constitucional del aborto en la Argentina es larga y compleja. Este artículo propone recorrer un aspecto parcial de ella: la de la forma en que la academia legal católica fue desarrollando, desde principios de la década de 1980, argumentos constitucionales para disputar con el campo feminista el significado de la Constitución. Este proceso tiene dos dimensiones. Una se vincula con la historia “intelectual” de las ideas católicas sobre reproducción y cómo ellas fueron adaptándose a las particularidades del derecho argentino.</description>
+      <guid>http://ramiroau.github.io/publicaciones/layers/</guid>
+      <description>In Argentina, COVID-19 arrived late and gave the government a chance to prepare. It took that chance: for now, the contagion curve seems to be under control and after the enforcement of a country-wide lockdown, the health system seems to be coping well with the slow rise of cases. The situation is not, however, sustainable. The lockdown is battering an already heavily battered economy, and it is predictably and disproportionately affecting those who are worse off.</description>
+    </item>
+    
+    <item>
+      <title>Controla tu entusiasmo. Algunos comentarios (críticos) a algunas experiencias deliberativas</title>
+      <link>http://ramiroau.github.io/publicaciones/experiencias_deliberativas/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/publicaciones/experiencias_deliberativas/</guid>
+      <description>Este trabajo presenta un breve análisis de lo que Roberto Gargarella llama &amp;ldquo;iniciativas políticas favorables a la democracia deliberativa&amp;rdquo; (IPDD). El trabajo se pregunta por el tipo de problemas que ellas vienen a resolver, y propone una respuesta doble: problemas representativos y problemas deliberativos. Ambos son teóricamente distintos, pero se confunden en la práctica. Argumento que la distinción es relevante, ya que permite tomar de las IPDD distintas características dependiendo del problema que estemos abordando.</description>
     </item>
     
     <item>
@@ -176,21 +185,12 @@ En la Argentina, este derecho recibió tradicionalmente una protección generosa
     </item>
     
     <item>
-      <title>Controla tu entusiasmo. Algunos comentarios (críticos) a algunas experiencias deliberativas</title>
-      <link>http://ramiroau.github.io/publicaciones/experiencias_deliberativas/</link>
+      <title>The Pro-Life Movement and the Constitution in Argentina</title>
+      <link>http://ramiroau.github.io/publicaciones/pro_life/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://ramiroau.github.io/publicaciones/experiencias_deliberativas/</guid>
-      <description>Este trabajo presenta un breve análisis de lo que Roberto Gargarella llama &amp;ldquo;iniciativas políticas favorables a la democracia deliberativa&amp;rdquo; (IPDD). El trabajo se pregunta por el tipo de problemas que ellas vienen a resolver, y propone una respuesta doble: problemas representativos y problemas deliberativos. Ambos son teóricamente distintos, pero se confunden en la práctica. Argumento que la distinción es relevante, ya que permite tomar de las IPDD distintas características dependiendo del problema que estemos abordando.</description>
-    </item>
-    
-    <item>
-      <title>Layers of crises: when pandemics meet institutional and economic havoc</title>
-      <link>http://ramiroau.github.io/publicaciones/layers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://ramiroau.github.io/publicaciones/layers/</guid>
-      <description>In Argentina, COVID-19 arrived late and gave the government a chance to prepare. It took that chance: for now, the contagion curve seems to be under control and after the enforcement of a country-wide lockdown, the health system seems to be coping well with the slow rise of cases. The situation is not, however, sustainable. The lockdown is battering an already heavily battered economy, and it is predictably and disproportionately affecting those who are worse off.</description>
+      <guid>http://ramiroau.github.io/publicaciones/pro_life/</guid>
+      <description>La historia constitucional del aborto en la Argentina es larga y compleja. Este artículo propone recorrer un aspecto parcial de ella: la de la forma en que la academia legal católica fue desarrollando, desde principios de la década de 1980, argumentos constitucionales para disputar con el campo feminista el significado de la Constitución. Este proceso tiene dos dimensiones. Una se vincula con la historia “intelectual” de las ideas católicas sobre reproducción y cómo ellas fueron adaptándose a las particularidades del derecho argentino.</description>
     </item>
     
   </channel>

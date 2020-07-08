@@ -2,14 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://ramiroau.github.io/etc/wikis/double_standards/corea_del_centro/</loc>
-    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
+    <loc>http://ramiroau.github.io/publicaciones/layers/</loc>
+    <lastmod>2020-07-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/publicaciones/</loc>
+    <lastmod>2020-07-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://ramiroau.github.io/</loc>
+    <lastmod>2020-07-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/wikis/double_standards/corea_del_centro/</loc>
     <lastmod>2020-07-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -177,7 +191,7 @@
   </url>
   
   <url>
-    <loc>http://ramiroau.github.io/tags/teoria-jur%C3%ADdica/</loc>
+    <loc>http://ramiroau.github.io/tags/teor%C3%ADa-jur%C3%ADdica/</loc>
     <lastmod>2020-06-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -227,13 +241,6 @@
   
   <url>
     <loc>http://ramiroau.github.io/tags/sociolog%C3%ADa/</loc>
-    <lastmod>2020-06-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://ramiroau.github.io/tags/teor%C3%ADa-jur%C3%ADdica/</loc>
     <lastmod>2020-06-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -352,13 +359,6 @@
   </url>
   
   <url>
-    <loc>http://ramiroau.github.io/publicaciones/</loc>
-    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://ramiroau.github.io/tags/r/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -366,8 +366,8 @@
   </url>
   
   <url>
-    <loc>http://ramiroau.github.io/publicaciones/pro_life/</loc>
-    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    <loc>http://ramiroau.github.io/publicaciones/experiencias_deliberativas/</loc>
+    <lastmod>2020-04-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -551,19 +551,7 @@
   </url>
   
   <url>
-    <loc>http://ramiroau.github.io/publicaciones/experiencias_deliberativas/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://ramiroau.github.io/recursos/plain_text/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://ramiroau.github.io/publicaciones/layers/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -594,6 +582,12 @@
   
   <url>
     <loc>http://ramiroau.github.io/recursos/privacypolicy/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/publicaciones/pro_life/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
