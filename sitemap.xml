@@ -2,6 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ramiroau.github.io/etc/wikis/foe/right_to_ofend/</loc>
+    <lastmod>2020-07-14T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/</loc>
+    <lastmod>2020-07-14T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/wikis/</loc>
+    <lastmod>2020-07-14T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/wikis/foe/</loc>
+    <lastmod>2020-07-14T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/</loc>
+    <lastmod>2020-07-14T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://ramiroau.github.io/publicaciones/layers/</loc>
     <lastmod>2020-07-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -16,13 +51,6 @@
   </url>
   
   <url>
-    <loc>http://ramiroau.github.io/</loc>
-    <lastmod>2020-07-07T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://ramiroau.github.io/etc/wikis/double_standards/corea_del_centro/</loc>
     <lastmod>2020-07-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -30,21 +58,7 @@
   </url>
   
   <url>
-    <loc>http://ramiroau.github.io/etc/wikis/</loc>
-    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://ramiroau.github.io/etc/wikis/double_standards/</loc>
-    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://ramiroau.github.io/etc/</loc>
     <lastmod>2020-07-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -66,13 +80,6 @@
   
   <url>
     <loc>http://ramiroau.github.io/etc/wikis/foe/desinformacio%CC%81n/</loc>
-    <lastmod>2020-07-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://ramiroau.github.io/etc/wikis/foe/</loc>
     <lastmod>2020-07-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -581,6 +588,12 @@
   </url>
   
   <url>
+    <loc>http://ramiroau.github.io/publicaciones/sna_and_the_law/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://ramiroau.github.io/recursos/privacypolicy/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -588,6 +601,12 @@
   
   <url>
     <loc>http://ramiroau.github.io/publicaciones/pro_life/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/wikis/arte_casual/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
