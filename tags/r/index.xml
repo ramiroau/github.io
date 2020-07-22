@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>R. Álvarez Ugarte</copyright>
-    <lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ramiroau.github.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Por dónde empezar con R</title>
+      <link>http://ramiroau.github.io/blog/r_empezar/</link>
+      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/blog/r_empezar/</guid>
+      <description>En las últimas semanas fui publicando en tuiter análisis diversos de datos legales con la metodología de social network analysis (SNA), que aprendí (o mejor dicho empecé a aprender) tomando el curso Design of Social Research en el departamento de Sociología de la Universidad de Columbia, con el gran Josh Whitford. Fue una de esas experiencias increíbles que siempre recomiendo a quienes van a estudiar derecho afuera: ¡sálganse de la escuelas de leyes!</description>
+    </item>
     
     <item>
       <title>Líneas de tiempo</title>

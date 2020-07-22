@@ -7,10 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>R. Álvarez Ugarte</copyright>
-    <lastBuildDate>Tue, 14 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ramiroau.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Por dónde empezar con R</title>
+      <link>http://ramiroau.github.io/blog/r_empezar/</link>
+      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/blog/r_empezar/</guid>
+      <description>En las últimas semanas fui publicando en tuiter análisis diversos de datos legales con la metodología de social network analysis (SNA), que aprendí (o mejor dicho empecé a aprender) tomando el curso Design of Social Research en el departamento de Sociología de la Universidad de Columbia, con el gran Josh Whitford. Fue una de esas experiencias increíbles que siempre recomiendo a quienes van a estudiar derecho afuera: ¡sálganse de la escuelas de leyes!</description>
+    </item>
+    
+    <item>
+      <title>Desinformación</title>
+      <link>http://ramiroau.github.io/etc/wikis/foe/desinformacio%CC%81n/</link>
+      <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/etc/wikis/foe/desinformacio%CC%81n/</guid>
+      <description>Leer https://www.nber.org/papers/w27417 https://fivethirtyeight.com/features/how-to-convince-people-to-stop-a-pandemic/ https://www.cnbc.com/2020/05/31/why-zuckerberg-dorsey-secretly-like-fueling-debate-over-fake-news.html
+Safety council de Twitter &amp;mdash; cómo las organizaciones, el gringo dice que vamos a hacer reuniones menos seguida, porque estamos colapsados con desinformación en pandemia en Tuiter &amp;mdash; hemos aumentado el nivel de moderación automática de contenidos. Desinformación en pandemia&amp;hellip; ¿qué es exactamente?
+  Infodemia.
+  Qué hacer con verificadores.
+  Qué hacer con recomendaciones sobre funcionarios públicos y desinformación sobre pandemia.
+ El impulso de la pandemia como urgencia para la desinformación Tenemos que hacerlo ahora, es urgente hacerlo ahora.</description>
+    </item>
     
     <item>
       <title>El derecho a ofender</title>
@@ -51,18 +74,6 @@ Corea del Centro La posición correcta es la que se ubica en el medio de dos ext
       <guid>http://ramiroau.github.io/etc/wikis/human_rights/limites_ddhh/</guid>
       <description>Hace tiempo que mi corazón se inclina a cierto escepticismo respecto de &amp;ldquo;los derechos&amp;rdquo;, que captura el siguiente tweet.
 No se si es una vuelta / un giro total, pero qué cosa con el &amp;quot;fetichismo&amp;quot; de los derechos. Mi propia evolución personal al respecto es notable. Pasé de pensar que &amp;quot;que todo sea derecho es mejor&amp;quot; a &amp;quot;que algo sea derecho complica más que ayuda&amp;quot; en menos de diez años.</description>
-    </item>
-    
-    <item>
-      <title>Desinformación</title>
-      <link>http://ramiroau.github.io/etc/wikis/foe/desinformacio%CC%81n/</link>
-      <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://ramiroau.github.io/etc/wikis/foe/desinformacio%CC%81n/</guid>
-      <description>Leer https://www.nber.org/papers/w27417 https://fivethirtyeight.com/features/how-to-convince-people-to-stop-a-pandemic/ https://www.cnbc.com/2020/05/31/why-zuckerberg-dorsey-secretly-like-fueling-debate-over-fake-news.html
-Ciencia Hechos &amp;gt; Ciencia &amp;gt; Salud
-Uno de los desafíos más relevantes del fenómeno de la &amp;ldquo;desinformación&amp;rdquo; es cuando éste no se concentra en cuestiones políticas o electorales sino en cuestiones vinculadas a la &amp;ldquo;ciencia&amp;rdquo;, entendida ésta como the intellectual and practical activity encompassing the systematic study of the structure and behaviour of the physical and natural world through observation and experiment.
-En cierto sentido, esta problemática es parte de un problema más amplio, vinculado al status de los &amp;ldquo;hechos&amp;rdquo; en el discurso público contemporáneo, que parece haber perdido cierto standing en los últimos años.</description>
     </item>
     
     <item>
@@ -155,7 +166,7 @@ Estuve mirando los datos sobre los dictamenes de la comisión bicameral que sigu
       
       <guid>http://ramiroau.github.io/etc/wikis/platforms/bang_bang/</guid>
       <description>Europa  &amp;ldquo;In a decision that could further embolden European governments to take on large tech platforms, Germany’s top court ruled on Tuesday that Facebook had abused its dominance in social media to illegally harvest data about its users.&amp;rdquo; New York Times
- </description>
+ California  &amp;ldquo;Let’s spend a few minutes today catching up on the antitrust inquiries into Google. There are investigations related to competition underway against most of the biggest tech giants – Apple, Facebook, and Amazon face similar inquiries, and their CEOS are scheduled to join Sundar Pichai for a virtual hearing with the House of Representatives later this month.</description>
     </item>
     
     <item>
