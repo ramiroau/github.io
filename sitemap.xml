@@ -619,6 +619,12 @@
   </url>
   
   <url>
+    <loc>http://ramiroau.github.io/etc/wikis/decadencias/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://ramiroau.github.io/etc/wikis/the_age_of_hope/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
