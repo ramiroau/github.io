@@ -14,10 +14,10 @@
     
     <item>
       <title>Desinformación</title>
-      <link>http://ramiroau.github.io/etc/wikis/foe/desinformacio%CC%81n/</link>
+      <link>http://ramiroau.github.io/etc/wikis/foe/desinformaci%C3%B3n/</link>
       <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://ramiroau.github.io/etc/wikis/foe/desinformacio%CC%81n/</guid>
+      <guid>http://ramiroau.github.io/etc/wikis/foe/desinformaci%C3%B3n/</guid>
       <description>Leer https://www.nber.org/papers/w27417 https://fivethirtyeight.com/features/how-to-convince-people-to-stop-a-pandemic/ https://www.cnbc.com/2020/05/31/why-zuckerberg-dorsey-secretly-like-fueling-debate-over-fake-news.html
 Safety council de Twitter &amp;mdash; cómo las organizaciones, el gringo dice que vamos a hacer reuniones menos seguida, porque estamos colapsados con desinformación en pandemia en Tuiter &amp;mdash; hemos aumentado el nivel de moderación automática de contenidos. Desinformación en pandemia&amp;hellip; ¿qué es exactamente?
   Infodemia.
@@ -54,6 +54,17 @@ Pero no deja de ser una tendencia increíblemete poderosa que hay que ir mirando
       
       <guid>http://ramiroau.github.io/etc/wikis/foe/the_perils_of_verification/</guid>
       <description>Sobre la idea del &amp;ldquo;balance&amp;rdquo; y la &amp;ldquo;moderación&amp;rdquo; / factchecking Siempre me pareció que impugna el principio del &amp;ldquo;libre mercado de ideas&amp;rdquo;, de acuerdo al cual&amp;mdash;se supone&amp;mdash;somos los ciudadanos quienes debemos juzgar qué es verdadero o falso. Tenemos claro que el Estado no debe hacer eso, pero parecemos tener menos claro que también está mal (o que algo perdemos) si lo hacen &amp;ldquo;terceros&amp;rdquo; que autorizamos / pedimos que lo hagan por nosotros.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://ramiroau.github.io/etc/wikis/foe/hilo_resp_intermediarios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/etc/wikis/foe/hilo_resp_intermediarios/</guid>
+      <description>La demanda judicial de CFK merece una discusión, que es volver sobre la discusión de la responsabilidad de los intermediarios pero que requiere una actualización
+Pero es una historia larga y vale la pena contarla y empieza en el dorm de Larry Page y Sergei Brin en Stanford y la creación del algorítmo de PageRank® que es el motivo por el cual la casa de Page es grande
+PageRank® está basado en un principio de social network analytics (estoy mucho con eso) que es lo de in-degree: medimos el valor de un nodo por la cantidad de nodos que se dirigen a él.</description>
     </item>
     
   </channel>
