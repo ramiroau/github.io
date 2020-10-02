@@ -2,6 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ramiroau.github.io/etc/wikis/judicial_dilemmas/judicial_dilemmas/</loc>
+    <lastmod>2020-10-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/</loc>
+    <lastmod>2020-10-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/wikis/</loc>
+    <lastmod>2020-10-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/wikis/judicial_dilemmas/</loc>
+    <lastmod>2020-10-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/</loc>
+    <lastmod>2020-10-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://ramiroau.github.io/publicaciones/foe_populistpolitics/</loc>
     <lastmod>2020-08-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -16,8 +51,8 @@
   </url>
   
   <url>
-    <loc>http://ramiroau.github.io/</loc>
-    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
+    <loc>http://ramiroau.github.io/publicaciones/pro_life/</loc>
+    <lastmod>2020-08-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -58,21 +93,7 @@
   </url>
   
   <url>
-    <loc>http://ramiroau.github.io/etc/wikis/</loc>
-    <lastmod>2020-07-20T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://ramiroau.github.io/etc/wikis/foe/</loc>
-    <lastmod>2020-07-20T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://ramiroau.github.io/etc/</loc>
     <lastmod>2020-07-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -615,12 +636,6 @@
   
   <url>
     <loc>http://ramiroau.github.io/recursos/privacypolicy/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://ramiroau.github.io/publicaciones/pro_life/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

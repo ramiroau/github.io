@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>R. Álvarez Ugarte</copyright>
-    <lastBuildDate>Thu, 13 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ramiroau.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Problemas judiciales en Argentina, circa 2020</title>
+      <link>http://ramiroau.github.io/etc/wikis/judicial_dilemmas/judicial_dilemmas/</link>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/etc/wikis/judicial_dilemmas/judicial_dilemmas/</guid>
+      <description>Componentes del problema   Problema prehistórico: el de las subrogancias, reguladas por ley desde 2015.
+  Reforma judicial para ¿diluir el poder de Comodoro Py multiplicándolo y yendo en contra del sistema acusatorio? Binder, en contra. Una nota de 2019 &amp;mdash; &amp;ldquo;Comodoro Py está todo podrido, no tiene salvación&amp;rdquo; (link). En Página/12 Irina Hauser defiende la reforma judicial.
+  Presión sobre la Corte Suprema mediante la reforma judicial de la comisión Beraldi.</description>
+    </item>
     
     <item>
       <title>Freedom of expression and populist politics in Latin America</title>
@@ -19,6 +30,15 @@
       
       <guid>http://ramiroau.github.io/publicaciones/foe_populistpolitics/</guid>
       <description>This chapter seeks to describe the normative underpinnings of the freedom of expression debate which engulfed Latin America in the last few years, specially around the push, led by some countries, to reform the Inter-American Human Rights System. Based on this analysis, the chapter argues for a conflicting relationship between populist politics and freedom of expression. With the dust settled over the Inter-American reform process, the analysis seems timely and relevant given the decline of left-wing populism in the region and the rise of right-wing populism worldwide.</description>
+    </item>
+    
+    <item>
+      <title>The Pro-Life Movement and the Fight for the Constitution in Argentina: Between Law and Transcendence</title>
+      <link>http://ramiroau.github.io/publicaciones/pro_life/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/publicaciones/pro_life/</guid>
+      <description>The constitutional history of abortion in Argentina is long and complex. This paper overviews a small part of it: the way in which Catholic legal academia developed, since the early 1980s, constitutional arguments to dispute with the feminist camp the meaning of the Constitution. This process has two dimensions. One is linked to the intellectual history of Catholic ideas over reproduction, and how they were adapted to the peculiarities of Argentinean law.</description>
     </item>
     
     <item>
@@ -659,15 +679,6 @@ PageRank® está basado en un principio de social network analytics (estoy mucho
       <guid>http://ramiroau.github.io/recursos/privacypolicy/</guid>
       <description>This is the privacy policy of the research project &amp;ldquo;Socio-legal research and Social Networks: Connections Between Academia and the Legal Field in Argentina&amp;rdquo;. The policy states the following:
 Objectives of research The research focuses on registering social networks within the Buenos Aires (Argentina) legal community, specially in order to describe the links between legal academia, the judiciary, and the legal profession. It takes as &amp;ldquo;subjects&amp;rdquo; legal professionals, judges, prosecutors, and law professors.</description>
-    </item>
-    
-    <item>
-      <title>The Pro-Life Movement and the Fight for the Constitution in Argentina: Between Law and Transcendence</title>
-      <link>http://ramiroau.github.io/publicaciones/pro_life/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://ramiroau.github.io/publicaciones/pro_life/</guid>
-      <description>The constitutional history of abortion in Argentina is long and complex. This paper overviews a small part of it: the way in which Catholic legal academia developed, since the early 1980s, constitutional arguments to dispute with the feminist camp the meaning of the Constitution. This process has two dimensions. One is linked to the intellectual history of Catholic ideas over reproduction, and how they were adapted to the peculiarities of Argentinean law.</description>
     </item>
     
   </channel>
