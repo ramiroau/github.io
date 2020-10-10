@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wikis on R. Álvarez Ugarte - sitio personal</title>
+    <link>http://ramiroau.github.io/etc/wikis/innovations/</link>
+    <description>Recent content in Wikis on R. Álvarez Ugarte - sitio personal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>R. Álvarez Ugarte</copyright>
+    <lastBuildDate>Thu, 25 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://ramiroau.github.io/etc/wikis/innovations/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Innovaciones democráticas</title>
+      <link>http://ramiroau.github.io/etc/wikis/innovations/innovaciones/</link>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/etc/wikis/innovations/innovaciones/</guid>
+      <description>Repositorio de ideas desestructuradas El derecho de petición  Rosanvallon (2020) vincula al derecho &amp;ldquo;de iniciativa&amp;rdquo; con una superación, aceptando lo bueno de, los referéndums. Actualmente el derecho de iniciativa se ejerce a través de la petición efectiva, pero el problema es que éste es un mecanismo no estructurado, casi para-constitucional que quedó afuera de los mecanismos de acción constitucionales (en casi todos lados, aunque hay excepciones). Como dice Pierre, puede ser &amp;ldquo;formalizada e institucionalizada&amp;rdquo; (Rosanvallon, 2020: 204).</description>
+    </item>
+    
+  </channel>
+</rss>
