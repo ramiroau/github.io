@@ -53,7 +53,7 @@
 <meta itemprop="description" content="Esto estaba en borrador desde hace mucho tiempo, porque usualmente recibo consultas sobre cómo escribir en plain text y cuestiones vinculadas al manejo de la bibliografía (especialmente con referencia a la automatización de citas). Una consulta de Claudio Ruiz&mdash;quien me presentó el mundo Markdown y pandoc hace muchos años&mdash;me terminó de empujar a publicar y a actualizar, porque la metodología (mí metodología) fue cambiando mucho con el paso del tiempo. Lo que sigue es, entonces, una forma de producir que me resulta útil a mí.">
 <meta itemprop="datePublished" content="2020-10-12T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2020-10-12T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="2481">
+<meta itemprop="wordCount" content="2691">
 
 
 
@@ -244,6 +244,8 @@ También podemos citar trabajos de autores conocidos, como bien hiciera Robert P
 </div>
 </div><p>Podemos guardar ese archivo como <em>borrador.md</em>.</p>
 <h2 id="convertir-a-otros-formatos">Convertir a otros formatos</h2>
+<p><img src="/pics/diagrama_plain_text.png" alt="" title="Diagrama muy básico del flujo de trabajo">
+<em>Esquema básico del flujo de trabajo</em></p>
 <p>Para procesar ese texto, vamos a necesitar algunos programas que hay que instalar. Aquí identifico a los que yo uso, en algunos casos hay alternativas (p.ej., <a href="https://www.zotero.org/">Zotero</a> puede ser reemplazado por <em>Mendeley</em> o <em>Papers</em>). Con <em>asterisco</em>, los esenciales.</p>
 <ul>
 <li><a href="https://pandoc.org/">Pandoc</a> (*)</li>
@@ -257,17 +259,16 @@ También podemos citar trabajos de autores conocidos, como bien hiciera Robert P
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-fallback" data-lang="fallback">pandoc borrador.md -o borrador.pdf 
-
 </code></pre></td></tr></table>
 </div>
-</div><p>La orden es que <code>pandoc</code> convierta el archivo Markdown en un <em>ouput</em> (-o): formato PDF. Para realizar esta conversión, Pandoc utiliza un motor de LaTeX. Veremos más adelante que, en ocasiones, podemos precisarlo (y tiene sus ventajas).</p>
+</div><p>La orden es que <code>pandoc</code> convierta el archivo Markdown en un <em>ouput</em> (-o): formato PDF. Para realizar esta conversión, Pandoc utiliza un motor de LaTeX. Veremos más adelante que, en ocasiones, podemos precisarlo (y tiene sus ventajas). El proceso se ve más o menos así:</p>
 <h2 id="bibliografía-y-formatos-de-citas">Bibliografía y formatos de citas</h2>
 <p>La bibliografía debe estar guardada en formato <code>.bib</code> o <code>.json</code>. Eso lo podemos hacer de manera sencilla con diversos organizadores de bibliografías en este formato. Yo utilizo <em>Zotero</em> porque (a) es software libre y (b) funciona como un gran ordenador de materiales, tanto físicos como digitales (los PDF se guardan en el mismo Zotero o en una carpeta de Dropbox o Google Drive vinculada a Zotero). El uso de Zotero no debería presentar mayores dificultades: es como un sistema de archivos dedicados sólo al manejo de bibliografías académicas y de investigación.</p>
-<p>Desde <em>Zotero</em>, lo que tenemos que hacer es exportar los trabajos que forman parte de nuestra bibliografía al formato <code>.bib</code> o <code>.json</code> <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. También se puede mantener un archivo <code>.bib</code> actualizado permanentemente de manera automática con <a href="rtwilson.com/academic/autozotbib">AutoZotBib</a>, pero yo hasta el momento preferí que cada proyecto tenga su propio archivo de bibliografía. Así, p.ej, podemos llamar a nuestro archivo con bibliografía <code>bibliografia.bib</code>. Ese archivo va a ser así:</p>
+<p>Desde <em>Zotero</em>, lo que tenemos que hacer es exportar los trabajos que forman parte de nuestra bibliografía al formato <code>.bib</code> o <code>.json</code> <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. También se puede mantener un archivo <code>.bib</code> actualizado permanentemente de manera automática con <a href="rtwilson.com/academic/autozotbib">AutoZotBib</a>, pero yo hasta el momento preferí que cada proyecto tenga su propio archivo de bibliografía. Así, p.ej, podemos llamar a nuestro archivo con bibliografía <code>bibliografia.bib</code>. La construcción de nuestro archivo de bibliografía la podemos hacer de dos maneras: a través de la selección de los diversos ítems que la integran y su posterior extracción desde Zotero o a través de la conformación manual del archivo, gracias a un <em>shortcut</em> que permite Zotero en <code>Preferences &gt; Export &gt; Quick Copy</code>. La primera opción exige ir guardando cada ítem en una carpeta o con el mismo tag (la segunda opción parece más versátil, porque&mdash;por ejemplo&mdash;yo tengo a Zotero organizado por carpetas temáticas más que de proyecto). La segunda opción es la que uso usualmente: a medida que voy escribiendo, voy agregando manualmente gracias al Quick Copy de Zotero cada ítem a un archivo <code>.bib</code> o <code>.json</code> que mantengo actualizado. En general hacia el final pandoc me informa que hay varias citas que no están en la bibliografía, así: <code>reference post2010 not found</code>. Cuando eso me pasa junto todos los ítems faltantes, los pego en Sublime Text y ahí corro los comandos <code>unique lines</code> y <code>sort lines</code> para eliminar duplicados y ponerlos en orden alfabético. Completar la bibliografía no me lleva más de quince minutos, incluso cuando los faltantes son cerca de cien.</p>
+<p>Ese archivo de bibliografía va a ser así:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
