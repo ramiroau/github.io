@@ -53,7 +53,7 @@
 <meta itemprop="description" content="Esto estaba en borrador desde hace mucho tiempo, porque usualmente recibo consultas sobre cómo escribir en plain text y cuestiones vinculadas al manejo de la bibliografía (especialmente con referencia a la automatización de citas). Una consulta de Claudio Ruiz&mdash;quien me presentó el mundo Markdown y pandoc hace muchos años&mdash;me terminó de empujar a publicar y a actualizar, porque la metodología (mí metodología) fue cambiando mucho con el paso del tiempo. Lo que sigue es, entonces, una forma de producir que me resulta útil a mí.">
 <meta itemprop="datePublished" content="2020-10-12T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2020-10-12T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="2479">
+<meta itemprop="wordCount" content="2481">
 
 
 
@@ -267,7 +267,7 @@ También podemos citar trabajos de autores conocidos, como bien hiciera Robert P
 </div><p>La orden es que <code>pandoc</code> convierta el archivo Markdown en un <em>ouput</em> (-o): formato PDF. Para realizar esta conversión, Pandoc utiliza un motor de LaTeX. Veremos más adelante que, en ocasiones, podemos precisarlo (y tiene sus ventajas).</p>
 <h2 id="bibliografía-y-formatos-de-citas">Bibliografía y formatos de citas</h2>
 <p>La bibliografía debe estar guardada en formato <code>.bib</code> o <code>.json</code>. Eso lo podemos hacer de manera sencilla con diversos organizadores de bibliografías en este formato. Yo utilizo <em>Zotero</em> porque (a) es software libre y (b) funciona como un gran ordenador de materiales, tanto físicos como digitales (los PDF se guardan en el mismo Zotero o en una carpeta de Dropbox o Google Drive vinculada a Zotero). El uso de Zotero no debería presentar mayores dificultades: es como un sistema de archivos dedicados sólo al manejo de bibliografías académicas y de investigación.</p>
-<p>Desde <em>Zotero</em>, lo que tenemos que hacer es exportar los trabajos que forman parte de nuestra bibliografía al formato <code>.bib</code> o <code>.json</code> ^[Yo este año me pasé del .bib al .json porque la traducción de los distintos campos de Zotero es más granular y permitía mayor precisión a la hora de diseñar un estilo propio, algo que hice con la <a href="/blog/gacl/">GACL</a>]. También se puede mantener un archivo <code>.bib</code> actualizado permanentemente de manera automática con <a href="rtwilson.com/academic/autozotbib">AutoZotBib</a>, pero yo hasta el momento preferí que cada proyecto tenga su propio archivo de bibliografía. Así, p.ej, podemos llamar a nuestro archivo con bibliografía <code>bibliografia.bib</code>. Ese archivo va a ser así:</p>
+<p>Desde <em>Zotero</em>, lo que tenemos que hacer es exportar los trabajos que forman parte de nuestra bibliografía al formato <code>.bib</code> o <code>.json</code> <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. También se puede mantener un archivo <code>.bib</code> actualizado permanentemente de manera automática con <a href="rtwilson.com/academic/autozotbib">AutoZotBib</a>, pero yo hasta el momento preferí que cada proyecto tenga su propio archivo de bibliografía. Así, p.ej, podemos llamar a nuestro archivo con bibliografía <code>bibliografia.bib</code>. Ese archivo va a ser así:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -535,6 +535,14 @@ abstract: |
 </div>
 </div><p>La complejidad mayor se debe a que empecé a usar <code>rmarkdown</code> como forma de disparar <code>pandoc</code>. Permite un nivel de precisión mayor de algunas cosas, como&mdash;por ejemplo&mdash;el manejo de las figuras por default, algo útil en proyectos que usan muchos datos. Además, permite escribir el código para manejar esos datos dentro del mismo archivo, en un formato <code>.rmd</code>. Por otro lado, el YAML más complejo identifica templates y preámbulos de LaTeX personalizados. Esta alternativa es mejor que controlar Pandoc desde la línea de comandos porque las ordenes se vuelven demasiado largas. Pero esto ya es un uso avanzado de las herramientas, aquí sólo quería compartir lo básico.</p>
 <p>Los archivos de los ejemplos dados acá están en un <a href="https://github.com/ramiroau/tutorial_plain_text">repositorio</a>.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Yo este año me pasé del .bib al .json porque la traducción de los distintos campos de Zotero es más granular y permitía mayor precisión a la hora de diseñar un estilo propio, algo que hice con la <a href="/blog/gacl/">GACL</a>. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
 
     </div>
 
