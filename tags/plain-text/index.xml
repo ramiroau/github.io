@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>plain-text on R. Álvarez Ugarte - sitio personal</title>
+    <link>http://ramiroau.github.io/tags/plain-text/</link>
+    <description>Recent content in plain-text on R. Álvarez Ugarte - sitio personal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>R. Álvarez Ugarte</copyright>
+    <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://ramiroau.github.io/tags/plain-text/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Escritura en plain text, citas y automatización</title>
+      <link>http://ramiroau.github.io/blog/escritura_libre/</link>
+      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/blog/escritura_libre/</guid>
+      <description>Esto estaba en borrador desde hace mucho tiempo, porque usualmente recibo consultas sobre cómo escribir en plain text y cuestiones vinculadas al menejo de la bibliografía (especialmente con referencia a la automatización de citas). Una consulta de Claudio Ruiz&amp;mdash;quien me presentó el mundo Markdown y pandoc hace muchos años&amp;mdash;me terminó de empujar a publicar y a actualizar, porque la metodolgía (mí metodlogía) fue cambiando mucho con el paso del tiempo. Lo que sigue es, entonces, una forma de producir que me resulta útil a mí.</description>
+    </item>
+    
+  </channel>
+</rss>

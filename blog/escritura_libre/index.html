@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="https://unpkg.com/d3-milestones/build/d3-milestones.css">
+  <script src="https://unpkg.com/d3-milestones/build/d3-milestones.min.js"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Escritura en plain text, citas y automatización - R. Álvarez Ugarte - sitio personal</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Ramiro Álvarez Ugarte" /><meta name="description" content="Esto estaba en borrador desde hace mucho tiempo, porque usualmente recibo consultas sobre cómo escribir en plain text y cuestiones vinculadas al menejo de la bibliografía (especialmente con referencia a la automatización de citas). Una consulta de Claudio Ruiz&amp;mdash;quien me presentó el mundo Markdown y pandoc hace muchos años&amp;mdash;me terminó de empujar a publicar y a actualizar, porque la metodolgía (mí metodlogía) fue cambiando mucho con el paso del tiempo. Lo que sigue es, entonces, una forma de producir que me resulta útil a mí." /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.68.3 with theme even" />
+
+
+<link rel="canonical" href="http://ramiroau.github.io/blog/escritura_libre/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.78f8f17bab244b9ee62ad16480c9584d5fc2db06ae20681d1ca225cefd80767c.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/mine.css">
+
+
+<meta property="og:title" content="Escritura en plain text, citas y automatización" />
+<meta property="og:description" content="Esto estaba en borrador desde hace mucho tiempo, porque usualmente recibo consultas sobre cómo escribir en plain text y cuestiones vinculadas al menejo de la bibliografía (especialmente con referencia a la automatización de citas). Una consulta de Claudio Ruiz&mdash;quien me presentó el mundo Markdown y pandoc hace muchos años&mdash;me terminó de empujar a publicar y a actualizar, porque la metodolgía (mí metodlogía) fue cambiando mucho con el paso del tiempo. Lo que sigue es, entonces, una forma de producir que me resulta útil a mí." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://ramiroau.github.io/blog/escritura_libre/" />
+<meta property="article:published_time" content="2020-10-12T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-10-12T00:00:00+00:00" />
+<meta itemprop="name" content="Escritura en plain text, citas y automatización">
+<meta itemprop="description" content="Esto estaba en borrador desde hace mucho tiempo, porque usualmente recibo consultas sobre cómo escribir en plain text y cuestiones vinculadas al menejo de la bibliografía (especialmente con referencia a la automatización de citas). Una consulta de Claudio Ruiz&mdash;quien me presentó el mundo Markdown y pandoc hace muchos años&mdash;me terminó de empujar a publicar y a actualizar, porque la metodolgía (mí metodlogía) fue cambiando mucho con el paso del tiempo. Lo que sigue es, entonces, una forma de producir que me resulta útil a mí.">
+<meta itemprop="datePublished" content="2020-10-12T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-10-12T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="2478">
+
+
+
+<meta itemprop="keywords" content="R,plain-text," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Escritura en plain text, citas y automatización"/>
+<meta name="twitter:description" content="Esto estaba en borrador desde hace mucho tiempo, porque usualmente recibo consultas sobre cómo escribir en plain text y cuestiones vinculadas al menejo de la bibliografía (especialmente con referencia a la automatización de citas). Una consulta de Claudio Ruiz&mdash;quien me presentó el mundo Markdown y pandoc hace muchos años&mdash;me terminó de empujar a publicar y a actualizar, porque la metodolgía (mí metodlogía) fue cambiando mucho con el paso del tiempo. Lo que sigue es, entonces, una forma de producir que me resulta útil a mí."/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">R. Álvarez Ugarte</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/blog/">
+        <li class="mobile-menu-item">Archivos</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Etiquetas</li>
+      </a><a href="/publicaciones/">
+        <li class="mobile-menu-item">Publicaciones</li>
+      </a><a href="/clases/">
+        <li class="mobile-menu-item">Clases</li>
+      </a><a href="/recursos/">
+        <li class="mobile-menu-item">Recursos</li>
+      </a><a href="/etc/">
+        <li class="mobile-menu-item">⌘</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">R. Álvarez Ugarte
+      <a href="mailto:ramiroau@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://twitter.com/ramiroau" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://ramiroau.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a></a>
+</div>
+
+<style>
+
+.header .site-navbar .menu  {
+
+  font-size: 4px;
+}
+
+.header .logo-wrapper .logo {
+
+    font-family: 'Jost', 'Futura', 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.mobile-navbar .mobile-header-logo .logo a {
+ 
+    font-family: 'Jost', 'Futura', 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.post-header .post-title {
+
+  font-family: 'Jost', 'Futura';
+
+}
+
+.element.style {
+  list-style: square inside;
+  list-style-type: disc;
+}
+
+}
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Alegreya&display=swap" rel="stylesheet">
+
+
+</style>
+
+
+
+<nav class="site-navbar">
+  <link rel="stylesheet" href="http://ramiroau.github.io//css/mine.css">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/blog/">Archivos</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Etiquetas</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/publicaciones/">Publicaciones</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/clases/">Clases</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/recursos/">Recursos</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/etc/">⌘</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+
+    <header class="post-header">
+      <h1 class="post-title">Escritura en plain text, citas y automatización</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 12 Oct 2020 </span>
+        <div class="post-category">
+            <a href="/tags/r/"> R </a>
+            <a href="/tags/plain-text/"> plain-text </a>
+            </div>
+        
+      </div>
+      
+    </header>
+
+    
+
+    
+
+    
+    <div class="post-content">
+      <p>Esto estaba en <em>borrador</em> desde hace mucho tiempo, porque usualmente recibo consultas sobre cómo escribir en <em>plain text</em> y cuestiones vinculadas al menejo de la bibliografía (especialmente con referencia a la automatización de citas). Una consulta de <a href="https://claudioruiz.com/">Claudio Ruiz</a>&mdash;quien me presentó el mundo Markdown y <code>pandoc</code> hace muchos años&mdash;me terminó de empujar a publicar y a actualizar, porque la metodolgía (<em>mí</em> metodlogía) fue cambiando mucho con el paso del tiempo. Lo que sigue es, entonces, una forma de producir que me resulta útil a mí. No es la mejor, quizás no sea para usted, pero aquí está.</p>
+<p>El primer paso es justificar la excentricidad. Lo que empezó como una preferencia por al escritura &ldquo;libre&rdquo; (es decir, sin restricciones de licencias y de formatos) terminó siendo una metodología de producción académica. La comparto con la advertencia previa porque creo que tiene los siguientes beneficios:</p>
+<ol>
+<li>
+<p>Permite separar a la escritura del acto de formateo de los documentos. Sirve para enfocar nuestra atención y aprovechar el tiempo al máximo. En general, darle formato a un documento lleva tiempo y, a menos que se tengan muy buenas prácticas, el proceso ante un procesador de texto, tanto en versión propietaria (Word) como libre (p.ej., Libre Office) es un proceso engorroso y muy <em>error-prone</em>.</p>
+</li>
+<li>
+<p>Permite un manejo automatizado de citas. En la producción académica, las citas son una gran parte del trabajo. Como cualquier investigador sabe, las citas son los que nos permite recorrer una literatura, descubrir su desarrollo, ver su evolución. Sin citas no podría haber producción académica. En general, el trabajo de citar puede ser molesto si no se tiene un flujo de trabajo cuidadosamente diseñado. Las herramientas que voy a compartir son&mdash;además de ser software libre <em>as in freedom</em>&mdash;útiles para hacer ese trabajo más rápido y de manera más consistente. Adoptar estas herramientas permite escribir <em>sin prestar atención al formato de la cita</em> hasta la etapa final del borrador.</p>
+</li>
+<li>
+<p>Da mejores resultados estéticos. Los procesadores de texto, basados en el modelo de WYSIWYG son notablemente malos en términos de diseño. Tienen tipografías poco sofisticadas (aunque, algunos clásicos, nunca decepcionan como <em>Times</em>, <em>Times New Roman</em> o <em>Garamond</em>) y&mdash;en general&mdash;el manejo de los espacios de la página es bastante arbitrario. A menos que se tenga (a) un template muy bien diseñado o (b) un cuidadoso trabajo de armar cada elemento con criterios tipográficamente aceptables, el resultado final es&mdash;en general&mdash;una catástrofe. Las herramientas que voy a compartir tienen dos ventajas en relación a esa alternativa. En primer lugar, delegan muchas de esas decisiones a un programa que tiene los <em>parámetros aceptables de la tipografía</em> ya incorporados a su código, diseñado por nada más y nada menos que <a href="https://es.wikipedia.org/wiki/Donald_Knuth">Donald Knuth</a>. Eso significa que es difícil cometer errores tipográficos: el programa permanentemente intenta impedir que hagamos tonterías. En segundo lugar, las herramientas que compartiré facilitan la conversión de formatos: es fácil convertir nuestros textos en archivos <code>docx</code>, <code>otd</code>, <code>pdf</code>, <code>html</code>, <code>epub</code> etcétera.</p>
+</li>
+</ol>
+<h1 id="herramientas-y-flujo-de-trabajo">Herramientas y flujo de trabajo</h1>
+<h2 id="escribir-en-markdown">Escribir en Markdown</h2>
+<p>El primer paso es empezar a escribir en Markdown. Es una forma de escribir que es independiente del formato y puede hacerse sobre diversas herramientas: desde un mismo procesador de texto hasta el &ldquo;Bloc de notas&rdquo; de un sistema operativo como Windows. Personalmente, prefiero <a href="https://www.sublimetext.com/3">Sublime Text 3</a>, aunque he escuchado buenos reportes de <a href="https://www.vim.org/">Vim</a>. Si quisiéramos explorar al máximo el mundo del software libre, podríamos probar con <a href="https://www.gnu.org/software/emacs/">Emacs</a>.</p>
+<p>Lo bueno de estos programas es que permiten diversas formas de manipulación de texto (como la <em>multiselección</em>) y están disponibles en múltiples plataformas. También permiten un manejo casi automatizado de las versiones de los documentos, algo que se puede hacer&mdash;por ejemplo&mdash;con <a href="https://git-scm.com/">Git</a>. En mi caso, como los archivos en Markdown son muy livianos, prefiero hacer esto de manera manual (p.ej., <code>borrador_capitulo_v2.md</code>), aunque a medida que los proyectos se vuelven más complejos y muy dependientes en análisis de datos la opción de un mecanismo automatizado parece más atractiva. Aprender a escribir en Markdown es facilísimo: <a href="https://markdown.es/">no lleva más de diez minutos</a>.</p>
+<p>Una vez que aprendimos a hacer eso podemos crear nuestro primer archivo en Markdown.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">
+Este es un archivo en *Markdown*. Muestra distintas formas de señalar cuando queremos que una palabra sea *cursiva* o **negrita**.
+
+También podemos poner notas al pie ^[Así de manera rápida]. O con referencias al pie [^fn1]. 
+
+O con un link, por ejemplo, [a Google](www.google.com).
+
+También podemos citar trabajos de autores conocidos, como bien hiciera Robert Post [@post2010, 1343]. 
+
+[^fn1]: Esto es una nota al pie.  
+
+</code></pre></td></tr></table>
+</div>
+</div><p>Podemos guardar ese archivo como <em>borrador.md</em>.</p>
+<h2 id="convertir-a-otros-formatos">Convertir a otros formatos</h2>
+<p>Para procesar ese texto, vamos a necesitar algunos programas que hay que instalar. Aquí identifico a los que yo uso, en algunos casos hay alternativas (p.ej., <a href="https://www.zotero.org/">Zotero</a> puede ser reemplazado por <em>Mendeley</em> o <em>Papers</em>). Con <em>asterisco</em>, los esenciales.</p>
+<ul>
+<li><a href="https://pandoc.org/">Pandoc</a> (*)</li>
+<li><a href="https://miktex.org/">LaTeX</a> (*)</li>
+<li><a href="https://www.ctan.org/pkg/biblatex">Biblatex</a> (*)</li>
+<li><a href="https://www.zotero.org/">Zotero</a> (*) + plugin <a href="https://retorque.re/zotero-better-bibtex/">BetterBibTex</a></li>
+<li><a href="https://rmarkdown.rstudio.com/">Rmarkdown</a></li>
+<li><a href="https://yihui.org/knitr/">Knitr</a></li>
+</ul>
+<p>Una vez que tenemos instalados todos los porgramas podemos empezar por la conversión más sencilla: de Markdown a PDF. Ello requiere ir al comando de línea y dar la siguiente orden, desde la carpeta en la que se encuentre el archivo que queremos convertir.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">pandoc borrador.md -o borrador.pdf 
+
+</code></pre></td></tr></table>
+</div>
+</div><p>La orden es que <code>pandoc</code> convierta el archivo Markdown en un <em>ouput</em> (-o): formato PDF. Para realizar esta conversión, Pandoc utiliza un motor de LaTeX. Veremos más adelante que, en ocasiones, podemos precisarlo (y tiene sus ventajas).</p>
+<h2 id="bibliografía-y-formatos-de-citas">Bibliografía y formatos de citas</h2>
+<p>La bibliografía debe estar guardada en formato <code>.bib</code> o <code>.json</code>. Eso lo podemos hacer de manera sencilla con diversos organizadores de bibliografías en este formato. Yo utilizo <em>Zotero</em> porque (a) es software libre y (b) funciona como un gran ordenador de materiales, tanto físicos como digitales (los PDF se guardan en el mismo Zotero o en una carpeta de Dropbox o Google Drive vinculada a Zotero). El uso de Zotero no debería presentar mayores dificultades: es como un sistema de archivos dedicados sólo al manejo de bibliografías académicas y de investigación.</p>
+<p>Desde <em>Zotero</em>, lo que tenemos que hacer es exportar los trabajos que forman parte de nuestra bibliografía al formato <code>.bib</code> o <code>.json</code> ^[Yo este año me pasé del .bib al .json porque la traducción de los distintos campos de Zotero es más granular y permitía mayor precisión a la hora de diseñar un estilo propio, algo que hice con la <a href="/blog/gacl/">GACL</a>]. También se puede mantener un archivo <code>.bib</code> actualizado permanentemente de manera automática con <a href="rtwilson.com/academic/autozotbib">AutoZotBib</a>, pero yo hasta el momento preferí que cada proyecto tenga su propio archivo de bibliografía. Así, p.ej, podemos llamar a nuestro archivo con bilbiografía <code>bibliografia.bib</code>. Ese archivo va a ser así:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">@article{post2010,
+  title = {Theorizing Disagreement: {{Reconceiving}} the Relationship between Law and Politics},
+  shorttitle = {Theorizing Disagreement},
+  author = {Post, Robert},
+  date = {2010},
+  journaltitle = {California Law Review},
+  volume = {98},
+  pages = {1319--1350},
+  eprint = {27896713},
+  eprinttype = {jstor},
+  file = {/Users/ramiroalvarezugarte/Google Drive/ZoteroFiles/Post_2010_Theorizing disagreement.pdf},
+  issue = {1}
+}
+</code></pre></td></tr></table>
+</div>
+</div><p>O así optamos por <code>bibliografia.json</code>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">[
+	{
+		&#34;id&#34;: &#34;post2010&#34;,
+		&#34;type&#34;: &#34;article-journal&#34;,
+		&#34;container-title&#34;: &#34;California Law Review&#34;,
+		&#34;issue&#34;: &#34;4&#34;,
+		&#34;page&#34;: &#34;1319–1350&#34;,
+		&#34;source&#34;: &#34;Google Scholar&#34;,
+		&#34;title&#34;: &#34;Theorizing Disagreement: Reconceiving the Relationship Between Law and Politics&#34;,
+		&#34;title-short&#34;: &#34;Theorizing disagreement&#34;,
+		&#34;URL&#34;: &#34;http://www.jstor.org/stable/27896713&#34;,
+		&#34;volume&#34;: &#34;98&#34;,
+		&#34;author&#34;: [
+			{
+				&#34;family&#34;: &#34;Post&#34;,
+				&#34;given&#34;: &#34;Robert&#34;
+			}
+		],
+		&#34;accessed&#34;: {
+			&#34;date-parts&#34;: [
+				[
+					&#34;2014&#34;,
+					12,
+					7
+				]
+			]
+		},
+		&#34;issued&#34;: {
+			&#34;date-parts&#34;: [
+				[
+					&#34;2010&#34;
+				]
+			]
+		}
+	}
+]
+</code></pre></td></tr></table>
+</div>
+</div><p>Fíjense que ambos archivos tienen todos los datos necesarios para construir una bibliografía: título, autor, publicación, volumen, etcétera. Esta información en Zotero se puede cargar de tres maneras distintas:</p>
+<ol>
+<li>
+<p>La podemos cargar manualmente en Zotero, cuando queremos p.ej., cargar los datos de un libro viejo que tenemos en casa, un fallo judicial que no está en repositorios en línea, etcétera.</p>
+</li>
+<li>
+<p>Si el libro es nuevo, lo podemos buscar en Google Books o Amazon. Si lo encontramos, con el <a href="https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc?hl=es">Zotero Connector</a> carga la información directamente desde la página.</p>
+</li>
+<li>
+<p>La mayoría de los repositorios de papers académicos (incluido <a href="https://scholar.google.com/">Google Scholar</a>) permite&mdash;también&mdash;usar el botón de conector de Zotero.</p>
+</li>
+</ol>
+<p>En general la información se carga bien, pero a veces tenemos que revisar que la carga haya sido bien hecha (p.ej., quizás el <em>conector</em> no puso la información sobre el &ldquo;volúmen&rdquo; de la Revista Académica correspondiente). En esto, el mejor flujo de trabajo es uno que se preocupa de que la información se cargue bien &ldquo;la primera vez&rdquo; (y luego nos podemos olvidar de eso).</p>
+<p>Ahora podemos hacer que nuestra cita al texto de Post tenga una forma determinada de acuerdo a un estilo de cita determinado. Para buscar esos estilos, debemos ir al <em>Zotero Style Repository</em>[https://www.zotero.org/styles] y elegir. Probemos p.ej. con APA, sexta edición. Vamos a obtener un archivo <code>apa-6th.edition.csl</code> y lo vamos a colocar an la carpeta en la que está nuestro <code>borrador.md</code> y nuestra <code>bibliografia.bib</code>. Tenemos ahora todo para producir nuestro documento, con la cita que querramos, y en formato que deseamos. Empecemos por una conversión a formato PDF.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">pandoc --citeproc --bibliography=bibliografia.json --csl=apa-6th-edition.csl --pdf-engine=xelatex borrador.md -o borrador.pdf 
+</code></pre></td></tr></table>
+</div>
+</div><p>Lo que agregamos es lo siguiente:</p>
+<ul>
+<li>Con <code>--citeproc</code> le damos la orden a <code>pandoc</code> para que considere la bibliografía.</li>
+<li>Con <code>--bibliography</code> identificamos el archivo correspondiente.</li>
+<li>Con <code>--csl</code> identificamos el estilo que queremos usar.</li>
+<li>Con <code>--pdf-engine</code> identificamos el <em>motor</em> de LaTeX que se va a usar para hacer la conversión (sirve si usamos fuentes tipográficas fuera de las que vienen por default; en ese caso uso <code>xelatex</code>).</li>
+</ul>
+<p>Para convertir a otros formatos la cosa es aún más sencilla:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">pandoc borrador.md -o borrador.html 
+pandoc borrador.md -o borrador.docx 
+
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="fintas-adicionales">Fintas adicionales</h2>
+<p>Es posible que el formato de PDF <em>por default</em> de Pandoc (que es el de LaTeX) no nos guste y querramos uno propio. En realidad nos debería gustar &mdash; hay muchos campos en dónde el PDF <em>por default</em> que produce LaTeX es el estándar para borradores de todo tipo. Pero si queremos algo más personalizado, hay muchos templates ahí afuera. Yo personalmente tengo varios: uno para las notas de clases (para producir <em>outlines</em>), uno para el CV inspirado en el <a href="http://kjhealy.github.io/kjh-vita/">vita</a> de Kieran Healy, uno para reportes breves, uno para cartas (!), uno para papers individuales en versión borrador, uno para formato &ldquo;capítulo de tesis&rdquo;, etcétera. Entrar en este mundo es complejizar más el proceso: requiere familiarizarse con la forma en que los archivos <code>.latex</code> (los templates que se pueden usar) están programados. Requiere empezar a &ldquo;meter mano&rdquo; a temas como espaciado, interlineado, tamaño de fuente, estructura de títulos (numeración, sangría), etcétera. Es un camino de ida, que permitirá&mdash;por ejemplo&mdash;usar tipografías poco utilizadas, o no fácilmente disponibles. No lo recomiendo porque (a) es una forma de perder tiempo, lo que va en contra de la idea de <em>enfocarnos solamente en la lectura</em>; (b) tiene una curva de aprendizaje pronunciada y (c) es la forma más fácil de cometer gruesos errores tipográficos.</p>
+<p>Por eso, y para borradores, trabajos práticos, tesis de licenciatura, maestría e incluso doctorales, el formato por <em>default</em> de LaTeX debería ser suficiente. Como decía, en muchos campos de investigación (especialmente, las ciencias duras) este es el formato <em>de preferencia</em>. Así que escribir un borrador en LaTeX tiene ese <em>no se qué</em> adicional de &ldquo;parecer profesional&rdquo; (incluso sin tener&mdash;todavía&mdash;el título habilitante). Usar el default es estar <em>in</em> y eso (en este club) es bueno.</p>
+<p>Quizás tiene más sentido modificar el formato del template de Word: el que usa Pandoc por default me parece muy malo. Eso es sencillo: hay que crear un documento con las características que querramos que tenga (interlineado, tipo de letra, títulos bien codificados, etcétera) y guardarlo (vacío o con texto, no importa) como <code>reference.docx</code> en la carpeta que tenemos de borrador. Luego podemos convertir de Markdown a DOCX (que muchos piden a la hora de p.ej., enviar un archivo) con el siguiente comando:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">pandoc --reference-doc=reference.docx borrador.md -o borrador.docx
+
+</code></pre></td></tr></table>
+</div>
+</div><p>Algo que sí parece importante es familizarizarse con los campos de YAML que permite Pandoc. Así es posible ponerle a nuestros borradores título, afiliación, institución, abstract, etcétera. Comparto abajo, p.ej., dos opciones, una sencilla y otra más compleja. La sencilla es nuestro archivo <code>borrador.md</code> con un preámbulo YAML sencillo, al que le podemos poner <code>borrador_con_titulo.md</code>.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">---
+title: Borrador
+author: Juan Pérez
+date: 2020-10-13
+---
+
+</code></pre></td></tr></table>
+</div>
+</div><p>La opción compleja es el YAML del último paper que escribí.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">---
+title: &#39;The Pro-Life Movement and the Fight for the Constitution in Argentina: Between Law and Transcendence&#39;
+author: 
+- name: Ramiro Álvarez Ugarte
+  affiliation: &#39;Universidad de Buenos Aires&#39;
+date: September 28, 2020 
+output:
+  word_document: 
+    reference_docx: &#34;/Users/ramiroalvarezugarte/Dropbox/Templates/reference.docx&#34;
+  pdf_document:
+    template: /Users/ramiroalvarezugarte/Dropbox/Templates/draft_article_rmd.tex
+    latex_engine: xelatex
+    includes:
+      in_header: /Users/ramiroalvarezugarte/Dropbox/Templates/preamble_mac.tex
+fig_width: 1
+fig_height: 1
+number-sections: no
+linkcolor: black
+thanks: I want to thank both reviewers for helpful and insightful comments, that improved the manuscript significantly. The mistakes and shortcomings that remain are exclusively my responsibility.
+bibliography: lalr.json
+csl: chicago-manual-of-style-17th-edition_RAU_2.csl
+header-es: \usepackage[spanish]{babel}
+suppress-bibliography: no
+keyword: 
+- &#34;constitución&#34;
+- &#34;movimientos sociales&#34;
+- &#34;catolicismo&#34;
+- &#34;feminismo&#34;
+- &#34;laicidad&#34;
+- &#34;aborto&#34;
+- &#34;derechos reproductivos&#34;
+abstract: |
+
+    \noindent The constitutional history of abortion in Argentina is long and complex. This paper overviews a small part of it: the way in which Catholic legal academia developed, since the early 1980s, constitutional arguments to dispute with the feminist camp the meaning of the Constitution. This process has two dimensions. One is linked to the intellectual history of Catholic ideas over reproduction, and how they were adapted to the peculiarities of Argentinean law. The other is related to the way in which these arguments formed the framing of the &#34;pro life&#34; movement in Argentina. Exploring this normative world reveals the &#34;depth of field&#34; with which social movement seeking constitutional change work with (Cover, 1983). It also reveals the stakes involved when the battle is waged in that terrain. This article explores what this means for constitutional theory. 
+
+---
+</code></pre></td></tr></table>
+</div>
+</div><p>La complejidad mayor se debe a que empecé a usar <code>rmarkdown</code> como forma de disparar <code>pandoc</code>. Permite un nivel de precisión mayor de algunas cosas, como&mdash;por ejemplo&mdash;el manejo de las figuras por default, algo útil en proyectos que usan muchos datos. Además, permite escribir el código para manejar esos datos dentro del mismo archivo, en un formato <code>.rmd</code>. Por otro lado, el YAML más complejo identifica templates y preámbulos de LaTeX personalizados. Esta alternativa es mejor que controlar pandoc desde la línea de comandos porque las ordenes se vuelven demasiado largas. Pero esto ya es un uso avanzado de las herramientas, aquí sólo quería compartir lo básico.</p>
+<p>Los archivos de los ejemplos dados acá están en un <a href="https://github.com/ramiroau/tutorial_plain_text">repositorio</a>.</p>
+
+    </div>
+
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/r/">R</a>
+          <a href="/tags/plain-text/">plain-text</a>
+          </div>
+      <nav class="post-nav">
+        
+        <a class="next" href="/blog/r_empezar/">
+            <span class="next-text nav-default">Por dónde empezar con R</span>
+            <span class="next-text nav-mobile">Siguiente</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:ramiroau@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://stackoverflow.com/users/4068708/ramiro" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
+      <a href="https://twitter.com/ramiroau" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="http://github.com/ramiroau" class="iconfont icon-github" title="github"></a>
+  <a href="http://ramiroau.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Creado con <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Tema - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2020
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">R. Álvarez Ugarte</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  
+
+
+
+<script type="text/javascript" src="/js/main.min.d7b7ada643c9c1a983026e177f141f7363b4640d619caf01d8831a6718cd44ea.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
