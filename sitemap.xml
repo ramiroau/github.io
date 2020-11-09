@@ -2,6 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ramiroau.github.io/etc/wikis/platforms/bang_bang/</loc>
+    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/</loc>
+    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/wikis/</loc>
+    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/wikis/platforms/</loc>
+    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/</loc>
+    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://ramiroau.github.io/blog/</loc>
     <lastmod>2020-10-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -30,13 +65,6 @@
   </url>
   
   <url>
-    <loc>http://ramiroau.github.io/</loc>
-    <lastmod>2020-10-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://ramiroau.github.io/tags/</loc>
     <lastmod>2020-10-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -51,21 +79,7 @@
   </url>
   
   <url>
-    <loc>http://ramiroau.github.io/etc/wikis/</loc>
-    <lastmod>2020-10-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://ramiroau.github.io/etc/wikis/judicial_dilemmas/</loc>
-    <lastmod>2020-10-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://ramiroau.github.io/etc/</loc>
     <lastmod>2020-10-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -254,13 +268,6 @@
   </url>
   
   <url>
-    <loc>http://ramiroau.github.io/etc/wikis/platforms/</loc>
-    <lastmod>2020-06-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://ramiroau.github.io/etc/wikis/racial_justice/</loc>
     <lastmod>2020-06-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -291,13 +298,6 @@
   <url>
     <loc>http://ramiroau.github.io/tags/teor%C3%ADa-jur%C3%ADdica/</loc>
     <lastmod>2020-06-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://ramiroau.github.io/etc/wikis/platforms/bang_bang/</loc>
-    <lastmod>2020-06-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -361,6 +361,13 @@
   <url>
     <loc>http://ramiroau.github.io/etc/wikis/racial_justice/police_impunity/</loc>
     <lastmod>2020-06-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/wikis/sovereignty/constitutional_moment_in_chile/</loc>
+    <lastmod>2020-05-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

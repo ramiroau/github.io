@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>R. Álvarez Ugarte</copyright>
-    <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ramiroau.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bang, Bang</title>
+      <link>http://ramiroau.github.io/etc/wikis/platforms/bang_bang/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/etc/wikis/platforms/bang_bang/</guid>
+      <description>https://twitter.com/markscott82/status/1321735155329966081?s=09
+Europa  &amp;ldquo;In a decision that could further embolden European governments to take on large tech platforms, Germany’s top court ruled on Tuesday that Facebook had abused its dominance in social media to illegally harvest data about its users.&amp;rdquo; New York Times
+ California  &amp;ldquo;Let’s spend a few minutes today catching up on the antitrust inquiries into Google. There are investigations related to competition underway against most of the biggest tech giants – Apple, Facebook, and Amazon face similar inquiries, and their CEOS are scheduled to join Sundar Pichai for a virtual hearing with the House of Representatives later this month.</description>
+    </item>
     
     <item>
       <title>Escritura en plain text, citas y automatización</title>
@@ -149,7 +160,7 @@ AV en contra del voto de Roberts pro precedente en el caso June Medical Services
       <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>http://ramiroau.github.io/etc/wikis/innovations/innovaciones/</guid>
-      <description>Repositorio de ideas desestructuradas El derecho de petición  Rosanvallon (2020) vincula al derecho &amp;ldquo;de iniciativa&amp;rdquo; con una superación, aceptando lo bueno de, los referéndums. Actualmente el derecho de iniciativa se ejerce a través de la petición efectiva, pero el problema es que éste es un mecanismo no estructurado, casi para-constitucional que quedó afuera de los mecanismos de acción constitucionales (en casi todos lados, aunque hay excepciones). Como dice Pierre, puede ser &amp;ldquo;formalizada e institucionalizada&amp;rdquo; (Rosanvallon, 2020: 204).</description>
+      <description>Repositorio de ideas desordenadas El derecho de petición   Rosanvallon (2020) vincula al derecho &amp;ldquo;de iniciativa&amp;rdquo; con una superación, aceptando lo bueno de, los referéndums. Actualmente el derecho de iniciativa se ejerce a través de la petición efectiva, pero el problema es que éste es un mecanismo no estructurado, casi para-constitucional que quedó afuera de los mecanismos de acción constitucionales (en casi todos lados, aunque hay excepciones). Como dice Pierre, puede ser &amp;ldquo;formalizada e institucionalizada&amp;rdquo; (Rosanvallon, 2020: 204).</description>
     </item>
     
     <item>
@@ -224,16 +235,6 @@ Estuve mirando los datos sobre los dictamenes de la comisión bicameral que sigu
     </item>
     
     <item>
-      <title>Bang, Bang</title>
-      <link>http://ramiroau.github.io/etc/wikis/platforms/bang_bang/</link>
-      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://ramiroau.github.io/etc/wikis/platforms/bang_bang/</guid>
-      <description>Europa  &amp;ldquo;In a decision that could further embolden European governments to take on large tech platforms, Germany’s top court ruled on Tuesday that Facebook had abused its dominance in social media to illegally harvest data about its users.&amp;rdquo; New York Times
- California  &amp;ldquo;Let’s spend a few minutes today catching up on the antitrust inquiries into Google. There are investigations related to competition underway against most of the biggest tech giants – Apple, Facebook, and Amazon face similar inquiries, and their CEOS are scheduled to join Sundar Pichai for a virtual hearing with the House of Representatives later this month.</description>
-    </item>
-    
-    <item>
       <title>The perils of verification</title>
       <link>http://ramiroau.github.io/etc/wikis/foe/the_perils_of_verification/</link>
       <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
@@ -303,6 +304,16 @@ High Level Takeaways
       <guid>http://ramiroau.github.io/etc/wikis/racial_justice/police_impunity/</guid>
       <description>Una dimensión importante de los casos constantes es que hay &amp;ldquo;impunidad&amp;rdquo;, juega un rol la doctrina de qualified immunity, aparentemente totalmente judicial.
  Qualified immunity is a legal doctrine in United States federal law that shields government officials from being sued for discretionary actions performed within their official capacity, unless their actions violated &amp;ldquo;clearly established&amp;rdquo; federal law or constitutional rights. Qualified immunity thus protects officials who &amp;ldquo;make reasonable but mistaken judgments about open legal questions&amp;rdquo;, but does not protect &amp;ldquo;the plainly incompetent or those who knowingly violate the law&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Constitutional Moment</title>
+      <link>http://ramiroau.github.io/etc/wikis/sovereignty/constitutional_moment_in_chile/</link>
+      <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/etc/wikis/sovereignty/constitutional_moment_in_chile/</guid>
+      <description>http://www.inap.uchile.cl/noticias/170032/academicos-dan-claves-para-el-proceso-constituyente
+http://www.iconnectblog.com/2020/11/symposium-on-chilean-referendum-part-i-drafting-a-constitution-on-a-clean-slate/</description>
     </item>
     
     <item>
@@ -629,7 +640,7 @@ En la Argentina, este derecho recibió tradicionalmente una protección generosa
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://ramiroau.github.io/etc/readlater/</guid>
-      <description>Septiembre 2020  Countering the Neoliberal Structural Constitution The Prodigal Techbro All Things End Three reflections on decentralization 35 years ago the Senate Hearings on Rock Lyrics Pierre Rosanvallon: “Las ideas populistas han impregnado el mundo entero” The Dishonest and Misogynistic Hate Campaign Against J.K. Rowling Judith Butler on the culture wars, JK Rowling and living in “anti-intellectual times” The US supreme court has become a threat to democracy. Here&amp;rsquo;s how we fix it The Other Supreme Court Fight Redes sociales en América Latina: Entre la espada y la pared What Even Is ‘Coordinated Inauthentic Behavior’ on Platforms?</description>
+      <description>Octubre 2020  Welcome to the New Roberts Court Amartya Sen on authoritarianism and arguing La infatigable prédica de los pastores ideológicos When will my fellow liberals learn? Face the Bitter Truth Subverting the System El fallo de la Corte: un innecesario y enorme daño al sistema judicial How Trump Won What Just Happened?  Remuneration Rights - The Open Revolution You have misunderstood the relevance of Hannah Arendt The Origins of Originalism &amp;amp; Its Corruption What Might The Supreme Court Look Like In The Future?</description>
     </item>
     
     <item>
