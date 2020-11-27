@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wikis on R. Álvarez Ugarte - sitio personal</title>
+    <link>http://ramiroau.github.io/etc/wikis/womens_rights/</link>
+    <description>Recent content in Wikis on R. Álvarez Ugarte - sitio personal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>R. Álvarez Ugarte</copyright>
+    <lastBuildDate>Sat, 18 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://ramiroau.github.io/etc/wikis/womens_rights/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Aborto</title>
+      <link>http://ramiroau.github.io/etc/wikis/womens_rights/abortion/</link>
+      <pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/etc/wikis/womens_rights/abortion/</guid>
+      <description>Parece haber críticas al proyecto desde múltiples lados:
+ Desde el movimiento pro life se dice que la combinación de modelos permite el aborto sine die. Desde el movimiento de mujeres, parece haber críticas a la falta de regulación / excesiva permisibilidad del régimen de objeción de conciencia.  Van apuntes.
+Un hilo de L. Dias:
+Abro hilo sobre algunas cuestiones de derecho penal del proyecto de Interrupción voluntaria del embarazo (aborto) enviado por el Poder Ejecutivo.</description>
+    </item>
+    
+  </channel>
+</rss>

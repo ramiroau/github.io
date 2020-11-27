@@ -2,14 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://ramiroau.github.io/etc/wikis/platforms/bang_bang/</loc>
-    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
+    <loc>http://ramiroau.github.io/publicaciones/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://ramiroau.github.io/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/publicaciones/clough2019/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/wikis/platforms/bang_bang/</loc>
     <lastmod>2020-10-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -87,13 +101,6 @@
   
   <url>
     <loc>http://ramiroau.github.io/publicaciones/foe_populistpolitics/</loc>
-    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://ramiroau.github.io/publicaciones/</loc>
     <lastmod>2020-08-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -485,8 +492,15 @@
   </url>
   
   <url>
-    <loc>http://ramiroau.github.io/publicaciones/clough2019/</loc>
-    <lastmod>2020-01-02T00:00:00+00:00</lastmod>
+    <loc>http://ramiroau.github.io/etc/wikis/womens_rights/abortion/</loc>
+    <lastmod>2020-01-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/wikis/womens_rights/</loc>
+    <lastmod>2020-01-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

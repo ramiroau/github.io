@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>R. Álvarez Ugarte</copyright>
-    <lastBuildDate>Thu, 13 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ramiroau.github.io/publicaciones/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The I·CONnect-Clough Center 2019 Global Review of Constitutional Law: Argentina Report</title>
+      <link>http://ramiroau.github.io/publicaciones/clough2019/</link>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/publicaciones/clough2019/</guid>
+      <description>In an election year, the Supreme Court was not at the forefront of public discussion. However, a handful of important and politically charged decisions timidly evinced the emergence of a majority inclined to check the government and protect some rights. Political change and economic turbulence may alter this.</description>
+    </item>
     
     <item>
       <title>Freedom of expression and populist politics in Latin America</title>
@@ -46,15 +55,6 @@
       
       <guid>http://ramiroau.github.io/publicaciones/experiencias_deliberativas/</guid>
       <description>Este trabajo presenta un breve análisis de lo que Roberto Gargarella llama &amp;ldquo;iniciativas políticas favorables a la democracia deliberativa&amp;rdquo; (IPDD). El trabajo se pregunta por el tipo de problemas que ellas vienen a resolver, y propone una respuesta doble: problemas representativos y problemas deliberativos. Ambos son teóricamente distintos, pero se confunden en la práctica. Argumento que la distinción es relevante, ya que permite tomar de las IPDD distintas características dependiendo del problema que estemos abordando.</description>
-    </item>
-    
-    <item>
-      <title>The I·CONnect-Clough Center 2019 Global Review of Constitutional Law: Argentina Report</title>
-      <link>http://ramiroau.github.io/publicaciones/clough2019/</link>
-      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://ramiroau.github.io/publicaciones/clough2019/</guid>
-      <description>In an election year, the Supreme Court was not at the forefront of public discussion. However, a handful of important and politically charged decisions timidly evinced the emergence of a majority inclined to check the government and protect some rights. Political change and economic turbulence may alter this.</description>
     </item>
     
     <item>
