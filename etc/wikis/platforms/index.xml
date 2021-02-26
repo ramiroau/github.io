@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>R. Álvarez Ugarte</copyright>
-    <lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Feb 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ramiroau.github.io/etc/wikis/platforms/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Platforms and Free Speech</title>
+      <link>http://ramiroau.github.io/etc/wikis/platforms/platforms_and_free_speech/</link>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/etc/wikis/platforms/platforms_and_free_speech/</guid>
+      <description>Desde hace algún tiempo (circa 2016) las plataformas están &amp;ldquo;bajo presión&amp;rdquo;, para lidiar con distintos temas. Una historia completa de esta cuestión debería empezar&amp;mdash;al menos&amp;mdash;con la ley francesa respecto de la promoción del nazismo, y las consecuencias que tuvo en distintas plataformas (de memoria: el sitio de eBay en Francia se vio obligado a filtrar contenidos disponibles en e.j., EEUU). Esta historia es compleja &amp;mdash; acá van algunos apuntes importantes.</description>
+    </item>
     
     <item>
       <title>Bang, Bang</title>
@@ -21,15 +30,6 @@
       <description>https://twitter.com/markscott82/status/1321735155329966081?s=09
 Europa  &amp;ldquo;In a decision that could further embolden European governments to take on large tech platforms, Germany’s top court ruled on Tuesday that Facebook had abused its dominance in social media to illegally harvest data about its users.&amp;rdquo; New York Times
  California  &amp;ldquo;Let’s spend a few minutes today catching up on the antitrust inquiries into Google. There are investigations related to competition underway against most of the biggest tech giants – Apple, Facebook, and Amazon face similar inquiries, and their CEOS are scheduled to join Sundar Pichai for a virtual hearing with the House of Representatives later this month.</description>
-    </item>
-    
-    <item>
-      <title>Platforms and Free Speech</title>
-      <link>http://ramiroau.github.io/etc/wikis/platforms/platforms_and_free_speech/</link>
-      <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://ramiroau.github.io/etc/wikis/platforms/platforms_and_free_speech/</guid>
-      <description>Desde hace algún tiempo (circa 2016) las plataformas están &amp;ldquo;bajo presión&amp;rdquo;, para lidiar con distintos temas. Una historia completa de esta cuestión debería empezar&amp;mdash;al menos&amp;mdash;con la ley francesa respecto de la promoción del nazismo, y las consecuencias que tuvo en distintas plataformas (de memoria: el sitio de eBay en Francia se vio obligado a filtrar contenidos disponibles en e.j., EEUU). Esta historia es compleja &amp;mdash; acá van algunos apuntes importantes.</description>
     </item>
     
     <item>

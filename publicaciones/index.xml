@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>R. Álvarez Ugarte</copyright>
-    <lastBuildDate>Thu, 26 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Feb 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ramiroau.github.io/publicaciones/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Pro-Life Movement and the Fight for the Constitution in Argentina: Between Law and Transcendence</title>
+      <link>http://ramiroau.github.io/publicaciones/pro_life/</link>
+      <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/publicaciones/pro_life/</guid>
+      <description>The constitutional history of abortion in Argentina is long and complex. This paper overviews a small part of it: the way in which Catholic legal academia developed, since the early 1980s, constitutional arguments to dispute with the feminist camp the meaning of the Constitution. This process has two dimensions. One is linked to the intellectual history of Catholic ideas over reproduction, and how they were adapted to the peculiarities of Argentinean law.</description>
+    </item>
     
     <item>
       <title>The I·CONnect-Clough Center 2019 Global Review of Constitutional Law: Argentina Report</title>
@@ -28,15 +37,6 @@
       
       <guid>http://ramiroau.github.io/publicaciones/foe_populistpolitics/</guid>
       <description>This chapter seeks to describe the normative underpinnings of the freedom of expression debate which engulfed Latin America in the last few years, specially around the push, led by some countries, to reform the Inter-American Human Rights System. Based on this analysis, the chapter argues for a conflicting relationship between populist politics and freedom of expression. With the dust settled over the Inter-American reform process, the analysis seems timely and relevant given the decline of left-wing populism in the region and the rise of right-wing populism worldwide.</description>
-    </item>
-    
-    <item>
-      <title>The Pro-Life Movement and the Fight for the Constitution in Argentina: Between Law and Transcendence</title>
-      <link>http://ramiroau.github.io/publicaciones/pro_life/</link>
-      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://ramiroau.github.io/publicaciones/pro_life/</guid>
-      <description>The constitutional history of abortion in Argentina is long and complex. This paper overviews a small part of it: the way in which Catholic legal academia developed, since the early 1980s, constitutional arguments to dispute with the feminist camp the meaning of the Constitution. This process has two dimensions. One is linked to the intellectual history of Catholic ideas over reproduction, and how they were adapted to the peculiarities of Argentinean law.</description>
     </item>
     
     <item>
