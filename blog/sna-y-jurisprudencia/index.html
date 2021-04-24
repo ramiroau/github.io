@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="https://unpkg.com/d3-milestones/build/d3-milestones.css">
+  <script src="https://unpkg.com/d3-milestones/build/d3-milestones.min.js"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>La jurisprudencia como una red que crece - R. Álvarez Ugarte - sitio personal</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Ramiro Álvarez Ugarte" /><meta name="description" content="Estoy muy enganchado con el uso de social network analysis para estudiar distintas cosas, y una de ellas es la jurisprudencia, entendida como un conjunto de precedentes acotados a un tema que se vinculan entre sí por la forma en que unos fallos citan a otros. Este tipo de estudios se ha utilizado en otros países pero, hasta donde se, no en la Argentina. En parte eso responde, seguramente, a que los servicios de búsqueda de jurisprudencia no están del todo desarrollados." /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.68.3 with theme even" />
+
+
+<link rel="canonical" href="http://ramiroau.github.io/blog/sna-y-jurisprudencia/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.78f8f17bab244b9ee62ad16480c9584d5fc2db06ae20681d1ca225cefd80767c.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/mine.css">
+
+
+<meta property="og:title" content="La jurisprudencia como una red que crece" />
+<meta property="og:description" content="Estoy muy enganchado con el uso de social network analysis para estudiar distintas cosas, y una de ellas es la jurisprudencia, entendida como un conjunto de precedentes acotados a un tema que se vinculan entre sí por la forma en que unos fallos citan a otros. Este tipo de estudios se ha utilizado en otros países pero, hasta donde se, no en la Argentina. En parte eso responde, seguramente, a que los servicios de búsqueda de jurisprudencia no están del todo desarrollados." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://ramiroau.github.io/blog/sna-y-jurisprudencia/" />
+<meta property="article:published_time" content="2021-04-23T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-04-23T00:00:00+00:00" />
+<meta itemprop="name" content="La jurisprudencia como una red que crece">
+<meta itemprop="description" content="Estoy muy enganchado con el uso de social network analysis para estudiar distintas cosas, y una de ellas es la jurisprudencia, entendida como un conjunto de precedentes acotados a un tema que se vinculan entre sí por la forma en que unos fallos citan a otros. Este tipo de estudios se ha utilizado en otros países pero, hasta donde se, no en la Argentina. En parte eso responde, seguramente, a que los servicios de búsqueda de jurisprudencia no están del todo desarrollados.">
+<meta itemprop="datePublished" content="2021-04-23T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2021-04-23T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="318">
+
+
+
+<meta itemprop="keywords" content="R,plain-text," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="La jurisprudencia como una red que crece"/>
+<meta name="twitter:description" content="Estoy muy enganchado con el uso de social network analysis para estudiar distintas cosas, y una de ellas es la jurisprudencia, entendida como un conjunto de precedentes acotados a un tema que se vinculan entre sí por la forma en que unos fallos citan a otros. Este tipo de estudios se ha utilizado en otros países pero, hasta donde se, no en la Argentina. En parte eso responde, seguramente, a que los servicios de búsqueda de jurisprudencia no están del todo desarrollados."/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">R. Álvarez Ugarte</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/blog/">
+        <li class="mobile-menu-item">Archivos</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Etiquetas</li>
+      </a><a href="/publicaciones/">
+        <li class="mobile-menu-item">Publicaciones</li>
+      </a><a href="/clases/">
+        <li class="mobile-menu-item">Clases</li>
+      </a><a href="/recursos/">
+        <li class="mobile-menu-item">Recursos</li>
+      </a><a href="/etc/">
+        <li class="mobile-menu-item">⌘</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">R. Álvarez Ugarte
+      <a href="mailto:ramiroau@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://twitter.com/ramiroau" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://ramiroau.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a></a>
+</div>
+
+<style>
+
+.header .site-navbar .menu  {
+
+  font-size: 4px;
+}
+
+.header .logo-wrapper .logo {
+
+    font-family: 'Jost', 'Futura', 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.mobile-navbar .mobile-header-logo .logo a {
+ 
+    font-family: 'Jost', 'Futura', 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.post-header .post-title {
+
+  font-family: 'Jost', 'Futura';
+
+}
+
+.element.style {
+  list-style: square inside;
+  list-style-type: disc;
+}
+
+}
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Alegreya&display=swap" rel="stylesheet">
+
+
+</style>
+
+
+
+<nav class="site-navbar">
+  <link rel="stylesheet" href="http://ramiroau.github.io//css/mine.css">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/blog/">Archivos</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Etiquetas</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/publicaciones/">Publicaciones</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/clases/">Clases</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/recursos/">Recursos</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/etc/">⌘</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+
+    <header class="post-header">
+      <h1 class="post-title">La jurisprudencia como una red que crece</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 23 Apr 2021 </span>
+        <div class="post-category">
+            <a href="/tags/r/"> R </a>
+            <a href="/tags/plain-text/"> plain-text </a>
+            </div>
+        
+      </div>
+      
+    </header>
+
+    
+
+    
+
+    
+    <div class="post-content">
+      <p>Estoy muy enganchado con el uso de <em>social network analysis</em> para estudiar distintas cosas, y una de ellas es la jurisprudencia, entendida como un conjunto de precedentes acotados a un tema que se vinculan entre sí por la forma en que unos fallos citan a otros. Este tipo de estudios se ha utilizado en otros países pero, hasta donde se, no en la Argentina. En parte eso responde, seguramente, a que los servicios de búsqueda de jurisprudencia no están del todo desarrollados. En todo caso, y en el marco de una investigación del <a href="http://palermo.edu/cele">CELE</a>, estamos explorando la jurisprudencia sobre <em>responsabilidad de intermediarios</em> en nuestro país. Los resultados hasta el momento son predecibles: el caso más importantes es <em>Belén Rodríguez c. Google</em>, resuelto por la CSJN en 2014. Pero además estamos procurando analizar la evolución de esa jurisprudencia, y especialmente ver el efecto que tuvo esa decisión en la jurisprudencia previa a nivel civil nacional y civil y comercial federal. No quiero adelantar conclusiones, porque son por ahora tentativas. Pero éste tipo de análisis nos permite pensar en la jurisprudencia como una red &ldquo;temporal&rdquo;, una dimensión de toda red social que está en pleno auge porque se basa en una presunción intuitivamente correcta: toda red de actores diversos cambia y evoluciona con el tiempo. Las redes de jurisprudencia encajan obviamente en ese modelo. A los fines de realizar ese tipo de análisis, construimos un dataset <em>temporal</em> de la jurisprudencia, en el que cada nodo ingresa a la red en la fecha de la sentencia y en la que permanece allí&mdash;en principio&mdash;hasta la fecha de corte de análisis, aunque preveemos que algunos fallos que son &ldquo;derogados&rdquo; podrían salir de la red (no ocurre en el caso bajo estudio). En todo caso, se trata de una buena forma de ver cómo &ldquo;evoluciona&rdquo; una jurisprudencia y permite explorar ese conjunto de casos de otra manera. Abajo, lo que hemos encontrado hasta ahora.</p>
+<!-- raw HTML omitted -->
+
+    </div>
+
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/r/">R</a>
+          <a href="/tags/plain-text/">plain-text</a>
+          </div>
+      <nav class="post-nav">
+        
+        <a class="next" href="/blog/escritura_libre/">
+            <span class="next-text nav-default">Escritura en plain text, citas y automatización</span>
+            <span class="next-text nav-mobile">Siguiente</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:ramiroau@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://stackoverflow.com/users/4068708/ramiro" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
+      <a href="https://twitter.com/ramiroau" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="http://github.com/ramiroau" class="iconfont icon-github" title="github"></a>
+  <a href="http://ramiroau.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Creado con <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Tema - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2020 - 
+    2021
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">R. Álvarez Ugarte</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  
+
+
+
+<script type="text/javascript" src="/js/main.min.d7b7ada643c9c1a983026e177f141f7363b4640d619caf01d8831a6718cd44ea.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

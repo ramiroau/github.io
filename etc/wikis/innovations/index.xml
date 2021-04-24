@@ -7,10 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>R. Álvarez Ugarte</copyright>
-    <lastBuildDate>Thu, 25 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Apr 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ramiroau.github.io/etc/wikis/innovations/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cosas rotas</title>
+      <link>http://ramiroau.github.io/etc/wikis/innovations/broken_stuff/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/etc/wikis/innovations/broken_stuff/</guid>
+      <description>La causa dólar futuro → pisaron el USD antes de las elecciones y eso generó un X costo al estado (y varios se beneficiaron)
+a. ¿Está roto? Sí, porque no hay delito / no es justiciable
+  Educación / falta de representación de padres / poder de sindicatos por sobre alumnos / padres.
+  Reformas de fondo
+a. Laboral / sistema de castas de facto b. Tributaria / ley de coparticipación / unilateralismo</description>
+    </item>
+    
+    <item>
+      <title>Chile&#39;s Constitutional Moment</title>
+      <link>http://ramiroau.github.io/etc/wikis/innovations/chile/</link>
+      <pubDate>Thu, 25 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/etc/wikis/innovations/chile/</guid>
+      <description>Apuntes sobre el proceso constitucional de Chile. En principio, ¿qué aspectos debería cubrir una &amp;ldquo;etnogfaría a distancia&amp;rdquo; (!) del proceso constituyente?
+ Drivers &amp;mdash; qué motiva al momento, cómo es que llegamos aquí. Pacto pre-constituyente. En qué consistió / cómo se mueven los actores post pacto. Alternativas de proceso (reforma congresional, convención ad-hoc, reglas de elección) -&amp;gt; selección de un modelo. Camino a la elección (debates, representaciones cruzadas, lo que es / pudo ser) Convención&amp;mdash;dilemas, principales desafíos Resultado  Negretto sobre la cuestión de las reglas internas de la Convención (los 2/3)</description>
+    </item>
     
     <item>
       <title>Innovaciones democráticas</title>
