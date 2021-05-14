@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>R. Álvarez Ugarte</copyright>
-    <lastBuildDate>Fri, 23 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ramiroau.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>plain-text</title>
       <link>http://ramiroau.github.io/tags/plain-text/</link>
-      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>http://ramiroau.github.io/tags/plain-text/</guid>
       <description></description>
@@ -24,27 +24,9 @@
     <item>
       <title>R</title>
       <link>http://ramiroau.github.io/tags/r/</link>
-      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>http://ramiroau.github.io/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>derecho-constitucional</title>
-      <link>http://ramiroau.github.io/tags/derecho-constitucional/</link>
-      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://ramiroau.github.io/tags/derecho-constitucional/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>teoría-jurídica</title>
-      <link>http://ramiroau.github.io/tags/teor%C3%ADa-jur%C3%ADdica/</link>
-      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://ramiroau.github.io/tags/teor%C3%ADa-jur%C3%ADdica/</guid>
       <description></description>
     </item>
     
@@ -54,6 +36,15 @@
       <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>http://ramiroau.github.io/tags/sociolog%C3%ADa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>teoría jurídica</title>
+      <link>http://ramiroau.github.io/tags/teor%C3%ADa-jur%C3%ADdica/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/tags/teor%C3%ADa-jur%C3%ADdica/</guid>
       <description></description>
     </item>
     

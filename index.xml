@@ -7,19 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>R. Álvarez Ugarte</copyright>
-    <lastBuildDate>Fri, 23 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Apr 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ramiroau.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>La jurisprudencia como una red que crece</title>
-      <link>http://ramiroau.github.io/blog/sna-y-jurisprudencia/</link>
-      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://ramiroau.github.io/blog/sna-y-jurisprudencia/</guid>
-      <description>Estoy muy enganchado con el uso de social network analysis para estudiar distintas cosas, y una de ellas es la jurisprudencia, entendida como un conjunto de precedentes acotados a un tema que se vinculan entre sí por la forma en que unos fallos citan a otros. Este tipo de estudios se ha utilizado en otros países pero, hasta donde se, no en la Argentina. En parte eso responde, seguramente, a que los servicios de búsqueda de jurisprudencia no están del todo desarrollados.</description>
-    </item>
     
     <item>
       <title>Cosas rotas</title>
@@ -290,20 +281,6 @@ AV en contra del voto de Roberts pro precedente en el caso June Medical Services
       
       <guid>http://ramiroau.github.io/blog/gacl/</guid>
       <description>A diferencia de otras jurisdicciones (p.ej. Estados Unidos, Reino Unido, Australia), la comunidad legal de Argentina no tiene un estilo de citas unificado. Cada editor pide el estilo que desea y&amp;mdash;en general&amp;mdash;no adoptan uno que ya exista, sino que generan un estilo propio desarrollado ad-hoc que vuelcan a una guía de estilo propia (p.ej. la Revista Ambiental de la Universidad de Palermo, la Revista Argentina de Teoría Jurídica de la Universidad Di Tella, Lecciones y Ensayos, etcétera).</description>
-    </item>
-    
-    <item>
-      <title>DNU, doctrina y práctica constitucional (urgente)</title>
-      <link>http://ramiroau.github.io/blog/dnus/</link>
-      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://ramiroau.github.io/blog/dnus/</guid>
-      <description>Sólo para compartir algunos datos que terminaron en un hilo de tuiter.
-Estuve mirando los datos sobre los dictamenes de la comisión bicameral que sigue los DNU dictados del Congreso. Sobre un N=219: - Recomienda validez del DNU = 190
-- Recomienda invalidez del DNU = 19
-- Empate (la comisión tiene 16 miembros) = 4
-- No logra mayoría = 6
-&amp;mdash; Ramiro Álvarez Ugarte (@ramiroau) June 14, 2020  Me interesaba mirar los datos de DNU y fui a la fuente original, Infoleg y SAIJ.</description>
     </item>
     
     <item>
