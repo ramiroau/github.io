@@ -331,6 +331,27 @@
   </url>
   
   <url>
+    <loc>http://ramiroau.github.io/tags/derecho-constitucional/</loc>
+    <lastmod>2020-06-14T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/blog/dnus/</loc>
+    <lastmod>2020-06-14T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/tags/teor%C3%ADa-jur%C3%ADdica/</loc>
+    <lastmod>2020-06-14T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://ramiroau.github.io/etc/wikis/foe/the_perils_of_verification/</loc>
     <lastmod>2020-06-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -367,13 +388,6 @@
   
   <url>
     <loc>http://ramiroau.github.io/tags/sociolog%C3%ADa/</loc>
-    <lastmod>2020-06-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://ramiroau.github.io/tags/teor%C3%ADa-jur%C3%ADdica/</loc>
     <lastmod>2020-06-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
