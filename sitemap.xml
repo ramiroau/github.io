@@ -191,6 +191,13 @@
   </url>
   
   <url>
+    <loc>http://ramiroau.github.io/etc/wikis/cocina/crepes_de_broccoli/</loc>
+    <lastmod>2020-08-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://ramiroau.github.io/blog/r_empezar/</loc>
     <lastmod>2020-07-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -527,6 +534,20 @@
   </url>
   
   <url>
+    <loc>http://ramiroau.github.io/etc/wikis/cocina/carbonara/</loc>
+    <lastmod>2020-05-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/wikis/cocina/gnocchi_di_semola/</loc>
+    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://ramiroau.github.io/publicaciones/experiencias_deliberativas/</loc>
     <lastmod>2020-04-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -562,13 +583,6 @@
   </url>
   
   <url>
-    <loc>http://ramiroau.github.io/etc/wikis/cocina/pad_thai/</loc>
-    <lastmod>2020-04-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://ramiroau.github.io/etc/wikis/cocina/pinapple_fried_rice/</loc>
     <lastmod>2020-04-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -576,7 +590,35 @@
   </url>
   
   <url>
+    <loc>http://ramiroau.github.io/etc/wikis/cocina/pad_thai/</loc>
+    <lastmod>2020-04-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://ramiroau.github.io/etc/wikis/cocina/broccoli_pasta/</loc>
+    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/wikis/cocina/curry_chicken/</loc>
+    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/wikis/cocina/falafel/</loc>
+    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/wikis/cocina/ginger_chicken/</loc>
     <lastmod>2020-04-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -591,6 +633,13 @@
   
   <url>
     <loc>http://ramiroau.github.io/etc/wikis/cocina/risotto/</loc>
+    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/wikis/cocina/to_do/</loc>
     <lastmod>2020-04-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -737,6 +786,12 @@
   
   <url>
     <loc>http://ramiroau.github.io/etc/readlater/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ramiroau.github.io/etc/wikis/cocina/tzatziki/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
