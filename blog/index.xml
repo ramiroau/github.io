@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>R. Álvarez Ugarte</copyright>
-    <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Aug 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ramiroau.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nadie es la patria (Borges)</title>
+      <link>http://ramiroau.github.io/blog/test/</link>
+      <pubDate>Tue, 31 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://ramiroau.github.io/blog/test/</guid>
+      <description>Waha.</description>
+    </item>
     
     <item>
       <title>Escritura en plain text, citas y automatización</title>
